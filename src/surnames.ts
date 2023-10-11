@@ -12,10 +12,10 @@ export const surnames: Surnames = {
         'Price', 'Alvarez', 'Castillo', 'Sanders', 'Patel', 'Myers', 'Long', 'Ross', 'Foster', 'Jimenez'
     ],
     'tr': [ // https://www.nvi.gov.tr/kurumlar/nvi.gov.tr/Genel_Mudurluk/istatistikler/En_cok_Kullanilan_Soyad_istatistigi.pdf
-        'Yılmaz', 'Kaya', 'Demi̇r', 'Çeli̇k', 'Şahi̇n', 'Yıldız', 'Yıldırım', 'Öztürk', 'Aydın', 'Özdemir',
-        'Arslan', 'Doğan', 'Kılıç', 'Aslan', 'Çetin', 'Kara', 'Koç', 'Kurt', 'Özkan', 'Şi̇mşek',
+        'Yılmaz', 'Kaya', 'Demir', 'Çelik', 'Şahin', 'Yıldız', 'Yıldırım', 'Öztürk', 'Aydın', 'Özdemir',
+        'Arslan', 'Doğan', 'Kılıç', 'Aslan', 'Çetin', 'Kara', 'Koç', 'Kurt', 'Özkan', 'Şimşek',
         'Polat', 'Özcan', 'Korkmaz', 'Çakır', 'Erdoğan', 'Yavuz', 'Can', 'Acar', 'Şen', 'Aktaş',
-        'Güler', 'Yalçın', 'Güneş', 'Bozkurt', 'Bulut', 'Keski̇n', 'Ünal', 'Turan', 'Gül', 'Özer',
-        'Işık', 'Kaplan', 'Avcı', 'Sarı', 'Teki̇n', 'Taş', 'Köse', 'Yüksel', 'Ateş', 'Aksoy',
+        'Güler', 'Yalçın', 'Güneş', 'Bozkurt', 'Bulut', 'Keskin', 'Ünal', 'Turan', 'Gül', 'Özer',
+        'Işık', 'Kaplan', 'Avcı', 'Sarı', 'Tekin', 'Taş', 'Köse', 'Yüksel', 'Ateş', 'Aksoy',
     ]
 };

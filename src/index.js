@@ -40,14 +40,14 @@ const names = {
             'Murat', 'Ömer', 'Ramazan', 'Halil', 'Süleyman', 'Abdullah', 'Mahmut', 'Salih', 'Recep', 'Fatih',
             'Kadir', 'Emre', 'Mehmet Ali', 'Hakan', 'Adem', 'Kemal', 'Yaşar', 'Bekir', 'Musa', 'Metin',
             'Bayram', 'Serkan', 'Orhan', 'Burak', 'Furkan', 'Yasin', 'Gökhan', 'Uğur', 'Muhammed', 'Yakup',
-            'Muhammet', 'Şükrü', 'Enes', 'Yunus', 'Cemal', 'Arif', 'Onur', 'Yılmaz', 'Şaban', 'Halil i̇brahim',
+            'Muhammet', 'Şükrü', 'Enes', 'Yunus', 'Cemal', 'Arif', 'Onur', 'Yılmaz', 'Şaban', 'Halil İbrahim',
         ],
         1: [
-            'Fatma', 'Ayşe', 'Emi̇ne', 'Hati̇ce', 'Zeynep', 'Eli̇f', 'Meryem', 'Şeri̇fe', 'Zehra', 'Sultan',
-            'Hani̇fe', 'Merve', 'Havva', 'Zeli̇ha', 'Esra', 'Fadi̇me', 'Özlem', 'Hacer', 'Melek', 'Yasemi̇n',
-            'Rabi̇a', 'Hülya', 'Cemi̇le', 'Sevi̇m', 'Gülsüm', 'Leyla', 'Di̇lek', 'Büşra', 'Aysel', 'Songül',
-            'Kübra', 'Hali̇me', 'Esma', 'Aynur', 'Hayri̇ye', 'Kadri̇ye', 'Tuğba', 'Sevgi̇', 'Ruki̇ye', 'Hava',
-            'Si̇bel', 'Derya', 'Fi̇li̇z', 'Asi̇ye', 'Kezi̇ban', 'Ebru', 'Ayşegül', 'Döndü', 'Selma', 'Ayten',
+            'Fatma', 'Ayşe', 'Emine', 'Hatice', 'Zeynep', 'Elif', 'Meryem', 'Şerife', 'Zehra', 'Sultan',
+            'Hanife', 'Merve', 'Havva', 'Zeliha', 'Esra', 'Fadime', 'Özlem', 'Hacer', 'Melek', 'Yasemin',
+            'Rabia', 'Hülya', 'Cemile', 'Sevim', 'Gülsüm', 'Leyla', 'Dilek', 'Büşra', 'Aysel', 'Songül',
+            'Kübra', 'Halime', 'Esma', 'Aynur', 'Hayriye', 'Kadriye', 'Tuğba', 'Sevgi', 'Rukiye', 'Hava',
+            'Sibel', 'Derya', 'Filiz', 'Asiye', 'Keziban', 'Ebru', 'Ayşegül', 'Döndü', 'Selma', 'Ayten',
         ],
         2: [
             'Yaşar', 'Ayhan', 'Dursun', 'İsmet', 'Muzaffer', 'Ümit', 'Özgür', 'İlhan', 'Hikmet', 'Yüksel',
@@ -71,11 +71,11 @@ const surnames = {
         'Price', 'Alvarez', 'Castillo', 'Sanders', 'Patel', 'Myers', 'Long', 'Ross', 'Foster', 'Jimenez'
     ],
     'tr': [
-        'Yılmaz', 'Kaya', 'Demi̇r', 'Çeli̇k', 'Şahi̇n', 'Yıldız', 'Yıldırım', 'Öztürk', 'Aydın', 'Özdemir',
-        'Arslan', 'Doğan', 'Kılıç', 'Aslan', 'Çetin', 'Kara', 'Koç', 'Kurt', 'Özkan', 'Şi̇mşek',
+        'Yılmaz', 'Kaya', 'Demir', 'Çelik', 'Şahin', 'Yıldız', 'Yıldırım', 'Öztürk', 'Aydın', 'Özdemir',
+        'Arslan', 'Doğan', 'Kılıç', 'Aslan', 'Çetin', 'Kara', 'Koç', 'Kurt', 'Özkan', 'Şimşek',
         'Polat', 'Özcan', 'Korkmaz', 'Çakır', 'Erdoğan', 'Yavuz', 'Can', 'Acar', 'Şen', 'Aktaş',
-        'Güler', 'Yalçın', 'Güneş', 'Bozkurt', 'Bulut', 'Keski̇n', 'Ünal', 'Turan', 'Gül', 'Özer',
-        'Işık', 'Kaplan', 'Avcı', 'Sarı', 'Teki̇n', 'Taş', 'Köse', 'Yüksel', 'Ateş', 'Aksoy',
+        'Güler', 'Yalçın', 'Güneş', 'Bozkurt', 'Bulut', 'Keskin', 'Ünal', 'Turan', 'Gül', 'Özer',
+        'Işık', 'Kaplan', 'Avcı', 'Sarı', 'Tekin', 'Taş', 'Köse', 'Yüksel', 'Ateş', 'Aksoy',
     ]
 };
 

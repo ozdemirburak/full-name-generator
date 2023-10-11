@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { fullName, firstName, lastName} from '../src/index.js';
+import { fullName, firstName, lastName } from '../src/index.js';
 
 const countries = ['us', 'tr'];
 
