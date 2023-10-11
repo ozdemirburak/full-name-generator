@@ -1,7 +1,7 @@
 import assert from 'assert';
 import { fullName, firstName, lastName } from '../src/index.js';
 
-const countries = ['tr', 'us', 'sv'];
+const countries = ['it', 'tr', 'uk', 'us', 'sv'];
 
 describe('full name generator', () => {
   it('generates first name', () => {

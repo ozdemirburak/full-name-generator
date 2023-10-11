@@ -1,28 +1,34 @@
 export const names: Names = {
+    'it': {
+        0: [ // https://web.archive.org/web/20231011212454/https://www.istat.it/en/analysis-and-products/interactive-contents/baby-names
+            'Leonardo', 'Alessandro', 'Tommaso', 'Francesco', 'Lorenzo', 'Edoardo', 'Mattia', 'Riccardo', 'Gabriele', 'Andrea',
+            'Diego', 'Matteo', 'Nicolo', 'Giuseppe', 'Antonio', 'Federico', 'Pietro', 'Samuele', 'Giovanni', 'Filippo',
+            'Enea', 'Davide', 'Christian', 'Gioele', 'Giulio', 'Michele', 'Marco', 'Gabriel', 'Elia', 'Luca',
+            'Salvatore', 'Vincenzo', 'Emanuele', 'Thomas', 'Alessio', 'Giacomo', 'Nathan', 'Liam', 'Simone', 'Samuel',
+            'Jacopo', 'Noah', 'Daniele', 'Giorgio', 'Ettore', 'Luigi', 'Daniel', 'Manuel', 'Nicola', 'Damiano'
+        ],
+        1: [ // https://web.archive.org/web/20231011212454/https://www.istat.it/en/analysis-and-products/interactive-contents/baby-names
+            'Sofia', 'Aurora', 'Giulia', 'Ginevra', 'Beatrice', 'Alice', 'Vittoria', 'Emma', 'Ludovica', 'Matilde',
+            'Giorgia', 'Camilla', 'Chiara', 'Anna', 'Bianca', 'Nicole', 'Gaia', 'Martina', 'Greta', 'Azzurra',
+            'Sara', 'Arianna', 'Noemi', 'Rebecca', 'Mia', 'Isabel', 'Adele', 'Chloe', 'Elena', 'Francesca',
+            'Gioia', 'Ambra', 'Viola', 'Carlotta', 'Cecilia', 'Diana', 'Alessia', 'Elisa', 'Emily', 'Marta',
+            'Maria', 'Margherita', 'Anita', 'Giada', 'Eleonora', 'Nina', 'Miriam', 'Asia', 'Amelia', 'Diletta'
+        ]
+    },
     'sv': {
         0: [ // https://web.archive.org/web/20231011193136/https://www.scb.se/contentassets/d544a09578c34138a2a3a2d5aaeb9e4b/be0001_namn_topp100-2021.xlsx
             'Karl', 'Erik', 'Lars', 'Anders', 'Per', 'Mikael', 'Johan', 'Olof', 'Nils', 'Jan',
             'Gustav', 'Hans', 'Peter', 'Lennart', 'Fredrik', 'Gunnar', 'Thomas', 'Sven', 'Daniel', 'Alexander',
             'Bengt', 'Bo', 'Oskar', 'Göran', 'Andreas', 'åke', 'Christer', 'Stefan', 'Magnus', 'Martin',
             'Mohamed', 'John', 'Mattias', 'Mats', 'Henrik', 'Jonas', 'Ulf', 'Leif', 'Björn', 'Axel',
-            'Christian', 'Robert', 'David', 'Viktor', 'Marcus', 'Emil', 'Niklas', 'Bertil', 'Arne', 'Patrik',
-            'Ingemar', 'Håkan', 'Christoffer', 'Rickard', 'Kjell', 'William', 'Joakim', 'Stig', 'Rolf', 'Wilhelm',
-            'Filip', 'Tommy', 'Roland', 'Simon', 'Sebastian', 'Claes', 'Anton', 'Roger', 'Kent', 'Ingvar',
-            'Elias', 'Johannes', 'Hugo', 'Jakob', 'Tobias', 'Lucas', 'Adam', 'Jonathan', 'Ove', 'Emanuel',
-            'Kenneth', 'Robin', 'Jörgen', 'Ali', 'Kurt', 'Oliver', 'Josef', 'Rune', 'Isak', 'Georg',
-            'Arvid', 'Ludvig', 'Gösta', 'Linus', 'Johnny', 'Albin', 'Olle', 'Edvin', 'Torbjörn', 'Dan'
+            'Christian', 'Robert', 'David', 'Viktor', 'Marcus', 'Emil', 'Niklas', 'Bertil', 'Arne', 'Patrik'
         ],
         1: [  // https://web.archive.org/web/20231011193136/https://www.scb.se/contentassets/d544a09578c34138a2a3a2d5aaeb9e4b/be0001_namn_topp100-2021.xlsx
             'Maria', 'Elisabeth', 'Anna', 'Kristina', 'Margareta', 'Eva', 'Linnéa', 'Karin', 'Birgitta', 'Marie',
             'Ingrid', 'Sofia', 'Marianne', 'Lena', 'Sara', 'Helena', 'Kerstin', 'Emma', 'Johanna', 'Katarina',
             'Viktoria', 'Inger', 'Cecilia', 'Susanne', 'Elin', 'Monica', 'Therese', 'Jenny', 'Hanna', 'Louise',
             'Anita', 'Carina', 'Ann', 'Irene', 'Ida', 'Linda', 'Helen', 'Gunilla', 'Malin', 'Viola',
-            'Annika', 'Ulla', 'Elsa', 'Matilda', 'Josefin', 'Ulrika', 'Ingegerd', 'Sofie', 'Alice', 'Anette',
-            'Julia', 'Astrid', 'Caroline', 'Anneli', 'Emelie', 'Kristin', 'Karolina', 'Amanda', 'Lisa', 'Barbro',
-            'åsa', 'Camilla', 'Madeleine', 'Lovisa', 'Erika', 'Siv', 'Maja', 'Yvonne', 'Charlotte', 'Agneta',
-            'Rut', 'Sandra', 'Britt', 'Rebecca', 'Isabelle', 'Alexandra', 'Frida', 'Ellinor', 'Gun', 'Ebba',
-            'Emilia', 'Ellen', 'Jessica', 'Klara', 'Olivia', 'Berit', 'Märta', 'Charlotta', 'Agnes', 'Ann-Marie',
-            'Inga', 'Sonja', 'Ella', 'Ann-Christin', 'Pia', 'Felicia', 'Maj', 'Lilly', 'Nathalie', 'Mona'
+            'Annika', 'Ulla', 'Elsa', 'Matilda', 'Josefin', 'Ulrika', 'Ingegerd', 'Sofie', 'Alice', 'Anette'
         ]
     },
     'tr': {
@@ -31,14 +37,30 @@ export const names: Names = {
             'Murat', 'Ömer', 'Ramazan', 'Halil', 'Süleyman', 'Abdullah', 'Mahmut', 'Salih', 'Recep', 'Fatih',
             'Kadir', 'Emre', 'Mehmet Ali', 'Hakan', 'Adem', 'Kemal', 'Yaşar', 'Bekir', 'Musa', 'Metin',
             'Bayram', 'Serkan', 'Orhan', 'Burak', 'Furkan', 'Yasin', 'Gökhan', 'Uğur', 'Muhammed', 'Yakup',
-            'Muhammet', 'Şükrü', 'Enes', 'Yunus', 'Cemal', 'Arif', 'Onur', 'Yılmaz', 'Şaban', 'Halil İbrahim',
+            'Muhammet', 'Şükrü', 'Enes', 'Yunus', 'Cemal', 'Arif', 'Onur', 'Yılmaz', 'Şaban', 'Halil İbrahim'
         ],
         1: [ // https://web.archive.org/web/20231011175540/https://www.nvi.gov.tr/kurumlar/nvi.gov.tr/Genel_Mudurluk/istatistikler/En_cok_Kullanilan_Ad_Istatistigi.pdf
             'Fatma', 'Ayşe', 'Emine', 'Hatice', 'Zeynep', 'Elif', 'Meryem', 'Şerife', 'Zehra', 'Sultan',
             'Hanife', 'Merve', 'Havva', 'Zeliha', 'Esra', 'Fadime', 'Özlem', 'Hacer', 'Melek', 'Yasemin',
             'Rabia', 'Hülya', 'Cemile', 'Sevim', 'Gülsüm', 'Leyla', 'Dilek', 'Büşra', 'Aysel', 'Songül',
             'Kübra', 'Halime', 'Esma', 'Aynur', 'Hayriye', 'Kadriye', 'Tuğba', 'Sevgi', 'Rukiye', 'Hava',
-            'Sibel', 'Derya', 'Filiz', 'Asiye', 'Keziban', 'Ebru', 'Ayşegül', 'Döndü', 'Selma', 'Ayten',
+            'Sibel', 'Derya', 'Filiz', 'Asiye', 'Keziban', 'Ebru', 'Ayşegül', 'Döndü', 'Selma', 'Ayten'
+        ]
+    },
+    'uk': {
+        0: [ // https://web.archive.org/web/20231011205614/https://www.ons.gov.uk/visualisations/dvc2154/figure1timeseries/datadownload.xlsx
+            'Adam', 'Albert', 'Albie', 'Alexander', 'Alfie', 'Alfred', 'Archie', 'Arlo', 'Arthur', 'Benjamin',
+            'Blake', 'Bobby', 'Brody', 'Caleb', 'Carter', 'Charles', 'Charlie', 'Chester', 'Daniel', 'David',
+            'Dylan', 'Edward', 'Elijah', 'Elliot', 'Ellis', 'Ethan', 'Ezra', 'Felix', 'Finley', 'Finn',
+            'Frankie', 'Freddie', 'Frederick', 'Gabriel', 'George', 'Grayson', 'Harrison', 'Harry', 'Harvey', 'Henry',
+            'Hudson', 'Hugo', 'Hunter', 'Isaac', 'Jack', 'Jackson', 'Jacob', 'James', 'Jasper', 'Jaxon'
+        ],
+        1: [ // https://web.archive.org/web/20231011205614/https://www.ons.gov.uk/visualisations/dvc2154/figure1timeseries/datadownload.xlsx
+            'Olivia', 'Amelia', 'Isla', 'Ava', 'Ivy', 'Freya', 'Lily', 'Florence', 'Mia', 'Willow',
+            'Rosie', 'Sophia', 'Isabella', 'Grace', 'Daisy', 'Sienna', 'Poppy', 'Elsie', 'Emily', 'Ella',
+            'Evelyn', 'Phoebe', 'Sofia', 'Evie', 'Charlotte', 'Harper', 'Millie', 'Matilda', 'Maya', 'Sophie',
+            'Alice', 'Emilia', 'Isabelle', 'Ruby', 'Luna', 'Maisie', 'Aria', 'Penelope', 'Mila', 'Bonnie',
+            'Eva', 'Hallie', 'Eliza', 'Ada', 'Violet', 'Esme', 'Arabella', 'Imogen', 'Jessica', 'Delilah'
         ]
     },
     'us': {
@@ -64,7 +86,7 @@ export const names: Names = {
             'Kinsley', 'Ruby', 'Sophie', 'Alice', 'Genesis', 'Claire', 'Audrey', 'Sadie', 'Aaliyah', 'Josephine',
             'Autumn', 'Brooklyn', 'Quinn', 'Kennedy', 'Cora', 'Savannah', 'Caroline', 'Athena', 'Natalia', 'Hailey',
             'Aubrey', 'Emery', 'Anna', 'Iris', 'Bella', 'Eloise', 'Skylar', 'Jade', 'Gabriella', 'Ariana',
-            'Maria', 'Adeline', 'Lydia', 'Sarah', 'Nevaeh', 'Serenity', 'Liliana', 'Ayla', 'Everleigh', 'Raelynn',
+            'Maria', 'Adeline', 'Lydia', 'Sarah', 'Nevaeh', 'Serenity', 'Liliana', 'Ayla', 'Everleigh', 'Raelynn'
         ]
     },
 };
