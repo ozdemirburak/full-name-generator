@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "ES2017"
+  },
+  "include": ["./src/**/*.ts"],
+  "files": ["src/index.d.ts"]
+}
