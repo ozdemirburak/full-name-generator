@@ -1,4 +1,4 @@
-# [Full Name Generator](https://fullnamegenerator.com)
+# [Full Name Generator](https://fullnamegenerator.com) - Random Name Generator
 
 [![npm-version]][npm] [![npm-downloads]][npm]
 
@@ -31,7 +31,7 @@ const femaleFirstName = firstName('us', 1);
 const unisexFirstName =  firstName('us', 2);
 
 // Generate Surnames
-const surName = lastName('us');
+const surname = lastName('us');
 
 // Generate Multiple Names
 const twoMaleFirstNames = firstName('us', 0, 2);
