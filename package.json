@@ -1,0 +1,58 @@
+{
+  "name": "full-name-generator",
+  "version": "1.0.0",
+  "description": "Generate random names using data from popular names and surnames of various countries.",
+  "keywords": [
+    "random",
+    "name",
+    "names",
+    "surname",
+    "first name",
+    "last name",
+    "full name",
+    "name generator",
+    "faker"
+  ],
+  "homepage": "https://fullnamegenerator.com",
+  "author": "Burak Özdemir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozdemirburak/full-name-generator/issues"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./full": {
+      "types": "./dist/index.full.d.ts",
+      "import": "./dist/index.full.mjs",
+      "require": "./dist/index.full.js"
+    }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozdemirburak/full-name-generator.git"
+  },
+  "scripts": {
+    "build": "npm run generate && vite build",
+    "generate": "tsx scripts/generate-lite-data.ts",
+    "test": "npm run build && mocha --import=tsx test/**/*.test.ts"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.2",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}
