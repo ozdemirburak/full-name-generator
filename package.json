@@ -18,20 +18,18 @@
     "url": "https://github.com/ozdemirburak/full-name-generator/issues"
   },
   "main": "./src/index.js",
-  "files": ["LICENSE", "README.md", "src", "dist"],
+  "files": ["LICENSE", "README.md", "src"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ozdemirburak/full-name-generator.git"
   },
   "scripts": {
     "build": "rollup -c",
-    "build-rel": "rollup -c -p @rollup/plugin-terser -o ./dist/full-name-generator.min.js",
     "test": "mocha"
   },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.5",
-    "@typescript-eslint/eslint-plugin": "^6.7.4",
     "mocha": "10.2.0",
     "rollup": "^4.0.2",
     "tslib": "^2.6.2",
