@@ -5,7 +5,7 @@
 Generate random names effortlessly using various data sources of popular first names and surnames
 from multiple countries. 
 
-Supported Countries: 🇮🇹🇸🇪🇹🇷🇬🇧🇺🇸
+Supported Countries: 🇧🇷🇮🇹🇸🇪🇹🇷🇬🇧🇺🇸
 
 If you find this package helpful, please consider ⭐ starring it on [GitHub](https://github.com/ozdemirburak/full-name-generator)!
 
@@ -21,20 +21,21 @@ $ npm install full-name-generator --save
 import { firstName, lastName, fullName } from 'full-name-generator';
 
 // Generate Full Names
-const maleFullName = fullName('us', 0);
-const femaleFullName = fullName('us', 1);
+const maleFullName = fullName('US', 0);
+const femaleFullName = fullName('US', 1);
 
 // Generate First Names
-const maleFirstName = firstName('us', 0);
-const femaleFirstName = firstName('us', 1);
+const maleFirstName = firstName('US', 0);
+const femaleFirstName = firstName('US', 1);
 
 // Generate Surnames
-const surname = lastName('us');
+const surname = lastName('US');
+const turkishSurname = lastName('TR');
 
 // Generate Multiple Names
-const twoMaleFirstNames = firstName('us', 0, 2);
-const twoLastNames = lastName('us', 2);
-const twoNamesThreeSurnamesFemaleFullName = fullName('us', 1, 2, 3);
+const twoMaleFirstNames = firstName('US', 0, 2);
+const twoLastNames = lastName('US', 2);
+const twoNamesThreeSurnamesFemaleFullName = fullName('US', 1, 2, 3);
 ````
 
 ## Functions
