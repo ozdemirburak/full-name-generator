@@ -27,6 +27,13 @@ export const surnames: Surnames = {
         'Cavani', 'Guerzoni', 'Morandi', 'Ascari', 'Bellei', 'Malavasi', 'Vecchi', 'Bergamini', 'Cisse', 'Vandelli',
         'Panini', 'Galli', 'Borsari', 'Cavazzuti', 'Roncaglia', 'Fontana', 'Silvestri', 'Cuoghi', 'Leonardi', 'Lodi'
     ],
+    'nl': [ // https://web.archive.org/web/20231013202503/https://nl.wikipedia.org/wiki/Lijst_van_meest_voorkomende_achternamen_van_Nederland
+        'de Jong', 'Jansen', 'de Vries', 'van den Berg', 'van Dijk', 'Bakker', 'Janssen', 'Visser', 'Smit', 'Meijer',
+        'de Boer', 'Mulder', 'de Groot', 'Bos', 'Vos', 'Peters', 'Hendriks', 'van Leeuwen', 'Dekker', 'Brouwer',
+        'de Wit', 'Dijkstra', 'Smits', 'de Graaf', 'van der Meer', 'van der Linden', 'Kok', 'Jacobs', 'de Haan', 'Vermeulen',
+        'van den Heuvel', 'van der Veen', 'van den Broek', 'de Bruijn, de Bruyn', 'de Bruin', 'van der Heijden', 'Schouten', 'van Beek', 'Willems', 'van Vliet',
+        'van de Ven', 'Hoekstra', 'Maas', 'Verhoeven', 'Koster', 'van dam', 'van der Wal', 'Prins', 'Blom', 'Huisman',
+    ],
     'sv': [ // https://web.archive.org/web/20231011193136/https://www.scb.se/contentassets/d544a09578c34138a2a3a2d5aaeb9e4b/be0001_namn_topp100-2021.xlsx
         'Andersson', 'Johansson', 'Karlsson', 'Nilsson', 'Eriksson', 'Larsson', 'Olsson', 'Persson', 'Svensson', 'Gustafsson',
         'Pettersson', 'Jonsson', 'Jansson', 'Hansson', 'Bengtsson', 'Jönsson', 'Lindberg', 'Jakobsson', 'Magnusson', 'Lindström',
