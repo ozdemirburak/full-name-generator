@@ -5,7 +5,8 @@
 Generate random names effortlessly using various data sources of popular first names and surnames
 from multiple countries. 
 
-Supported Countries: 🇧🇷🇨🇿🇮🇹🇳🇱🇸🇪🇹🇷🇬🇧🇺🇸
+**Countries**: 🇧🇷 Brazil, 🇨🇿 Czechia, 🇮🇹 Italy, 🇳🇱 Netherlands, 🇸🇪 Sweden, 🇹🇷 Türkiye, 🇬🇧 United Kingdom,
+🇺🇸 United States
 
 If you find this package helpful, please consider ⭐ starring it on [GitHub](https://github.com/ozdemirburak/full-name-generator)!
 
