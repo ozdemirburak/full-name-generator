@@ -9,6 +9,13 @@ const formatIsoCode = (isoCode: string) => {
   return isoCode.toLowerCase();
 }
 
+const formatSurnameIsoCode = (isoCode: string, gender: Gender | null) => {
+  if (gender !== null && formatIsoCode(isoCode) === 'cz') {
+    isoCode = isoCode + '_' + gender;
+  }
+  return isoCode;
+}
+
 const getRandomName = (isoCode: string, gender: Gender): string => {
   isoCode = formatIsoCode(isoCode);
   if (!names[isoCode] || !names[isoCode][gender]) {
@@ -33,7 +40,8 @@ const firstName = (isoCode: string, gender: Gender, n: number = 1): string => {
   return namesArray.join(' ');
 };
 
-const lastName = (isoCode: string, n: number = 1): string => {
+const lastName = (isoCode: string, n: number = 1, gender: Gender | null): string => {
+  isoCode = formatSurnameIsoCode(isoCode, gender);
   const surnamesArray: string[] = [];
   for (let i = 0; i < n; i++) {
     surnamesArray.push(getRandomSurname(isoCode));
@@ -42,7 +50,7 @@ const lastName = (isoCode: string, n: number = 1): string => {
 };
 
 const fullName = (isoCode: string, gender: Gender, firstN: number= 1, lastN: number = 1, space: string = ' '): string => {
-  return `${firstName(isoCode, gender, firstN)}${space}${lastName(isoCode, lastN)}`;
+  return `${firstName(isoCode, gender, firstN)}${space}${lastName(isoCode, lastN, gender)}`;
 };
 
 export {

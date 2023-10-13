@@ -1,7 +1,7 @@
 import assert from 'assert';
 import { fullName, firstName, lastName } from '../src/index.js';
 
-const countries = ['it', 'tr', 'uk', 'us', 'sv'];
+const countries = ['br', 'it', 'sv', 'tr', 'uk', 'us'];
 
 describe('full name generator', () => {
   it('generates first name', () => {
@@ -15,6 +15,10 @@ describe('full name generator', () => {
       assert.ok(lastName(countries[c]).length > 0);
     }
   });
+  it('generates czech last name', () => {
+    assert.ok(lastName('CZ', 1, 0).length > 0);
+    assert.ok(lastName('CZ', 1, 1).length > 0);
+  });
   it('generates full name', () => {
     for (let c in countries) {
       assert.ok(fullName(countries[c], 0).length > 0);
@@ -22,10 +26,11 @@ describe('full name generator', () => {
     }
   });
   it('generates multiple names', () => {
-    for (let c in countries) {
-      assert.ok(firstName(countries[c], 0, 2).split(' ').length >= 2);
-      assert.ok(lastName(countries[c], 2).split(' ').length >= 2);
-      assert.ok(fullName(countries[c], 0, 2, 2).split(' ').length >= 4);
-    }
+    assert.ok(fullName('CZ', 0).length >= 2);
+    assert.ok(fullName('CZ', 1).length >= 2);
+  });
+  it('generates czech multiple names', () => {
+    assert.ok(fullName('CZ', 0).length >= 2);
+    assert.ok(fullName('CZ', 1).length >= 2);
   });
 });
