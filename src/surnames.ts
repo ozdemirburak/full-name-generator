@@ -6,6 +6,7 @@ import nl from './surnames/nl';
 import sv from './surnames/sv';
 import tr from './surnames/tr';
 import us from './surnames/us';
+import in from './surnames/in';
 
 export const surnames: Surnames = {
     br,
@@ -15,5 +16,5 @@ export const surnames: Surnames = {
     nl,
     sv,
     tr,
-    us
+    in
 };
