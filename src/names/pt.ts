@@ -1,12 +1,11 @@
 
 const portugueseNames = {
     0: [ // Male names - https://www.familyeducation.com/, https://www.behindthename.com/, https://forebears.io/, https://www.ine.pt/, https://www.irn.mj.pt/
-        'Afonso', 'Alexandre', 'André', 'António', 'Bernardo', 'Carlos', 'Daniel', 'David', 'Diogo',
-        'Duarte', 'Eduardo', 'Fernando', 'Filipe', 'Francisco', 'Gabriel', 'Gonçalo', 'Gustavo', 'Henrique',
-        'Hugo', 'Ivan', 'João', 'José', 'Leonardo', 'Lucas', 'Luís', 'Manuel', 'Marcos', 'Mário',
-        'Mateus', 'Maurício', 'Miguel', 'Nicolas', 'Nuno', 'Paulo', 'Pedro', 'Rafael', 'Ricardo', 'Rodrigo',
-        'Rui', 'Salvador', 'Samuel', 'Santiago', 'Sérgio', 'Simão', 'Tiago', 'Tomás', 'Vasco', 'Vicente',
-        'Vítor', 'Xavier'
+        'Afonso', 'Alexandre', 'André', 'António', 'Bernardo', 'Carlos', 'Daniel', 'David', 'Diogo', 'Duarte',
+        'Eduardo', 'Fernando', 'Filipe', 'Francisco', 'Gabriel', 'Gonçalo', 'Gustavo', 'Henrique', 'Hugo', 'Ivan',
+        'João', 'José', 'Leonardo', 'Lucas', 'Luís', 'Manuel', 'Marcos', 'Mário', 'Mateus', 'Maurício',
+        'Miguel', 'Nicolas', 'Nuno', 'Paulo', 'Pedro', 'Rafael', 'Ricardo', 'Rodrigo', 'Rui', 'Salvador',
+        'Samuel', 'Santiago', 'Sérgio', 'Simão', 'Tiago', 'Tomás', 'Vasco', 'Vicente', 'Vítor', 'Xavier'
     ],
     1: [ // Female names - https://www.familyeducation.com/, https://www.behindthename.com/, https://forebears.io/, https://www.ine.pt/, https://www.irn.mj.pt/
         'Adriana', 'Alexa', 'Alice', 'Ana', 'Ana Sofia', 'Andreia', 'Bárbara', 'Beatriz', 'Beatriz Silva', 'Bianca',
