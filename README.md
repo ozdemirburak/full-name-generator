@@ -6,7 +6,7 @@ Generate random names effortlessly using various data sources of popular first n
 from multiple countries. 
 
 **Countries**: 🇧🇷 Brazil (BR), 🇨🇿 Czechia (CZ), 🇮🇹 Italy (IT), 🇳🇱 Netherlands (NL), 🇸🇪 Sweden (SV), 
-🇹🇷 Türkiye (TR), 🇬🇧 United Kingdom (UK), 🇺🇸 United States (US)
+🇹🇷 Türkiye (TR), 🇬🇧 United Kingdom (GB), 🇺🇸 United States (US)
 
 If you find this package helpful, please consider ⭐ starring it on [GitHub](https://github.com/ozdemirburak/full-name-generator)!
 
