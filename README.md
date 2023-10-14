@@ -74,9 +74,9 @@ Generates one or more surnames. For some countries like the Czech Republic, gend
 lastName(isoCode: string, gender?: Gender, n: number = 1): string
 ```
 
-- **isoCode**: The ISO code for the country (US, TR).
+- **isoCode**: The ISO code for the country (e.g., BR, CZ, US).
 - **gender**: (Optional) Gender category for the surname. Required for countries like the Czech Republic. (0 - Male, 1 - Female).
-- **n**: Number of surnames to generate (default is 1).ch surnames. (0 - Male, 1 - Female).
+- **n**: Number of surnames to generate (default is 1).
 
 ## License
 
