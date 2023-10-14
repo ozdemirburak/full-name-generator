@@ -1,7 +1,7 @@
 import assert from 'assert';
 import { fullName, firstName, lastName } from '../src/index.js';
 
-const countries = ['br', 'it', 'nl', 'sv', 'tr', 'uk', 'us'];
+const countries = ['br', 'gb', 'it', 'nl', 'sv', 'tr', 'us'];
 
 describe('full name generator', () => {
   it('generates first name', () => {
@@ -13,10 +13,11 @@ describe('full name generator', () => {
   it('generates last name', () => {
     for (let c in countries) {
       assert.ok(lastName(countries[c]).length > 0);
+      assert.ok(lastName(countries[c], null, 3).length > 3);
     }
   });
   it('generates czech last name', () => {
-    assert.ok(lastName('CZ', 1, 0).length > 0);
+    assert.ok(lastName('CZ', 0, 1).length > 0);
     assert.ok(lastName('CZ', 1, 1).length > 0);
   });
   it('generates full name', () => {

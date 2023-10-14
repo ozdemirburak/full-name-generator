@@ -5,8 +5,8 @@
 Generate random names effortlessly using various data sources of popular first names and surnames
 from multiple countries. 
 
-**Countries**: 🇧🇷 Brazil, 🇨🇿 Czechia, 🇮🇹 Italy, 🇳🇱 Netherlands, 🇸🇪 Sweden, 🇹🇷 Türkiye, 🇬🇧 United Kingdom,
-🇺🇸 United States
+**Countries**: 🇧🇷 Brazil (BR), 🇨🇿 Czechia (CZ), 🇮🇹 Italy (IT), 🇳🇱 Netherlands (NL), 🇸🇪 Sweden (SV), 
+🇹🇷 Türkiye (TR), 🇬🇧 United Kingdom (UK), 🇺🇸 United States (US)
 
 If you find this package helpful, please consider ⭐ starring it on [GitHub](https://github.com/ozdemirburak/full-name-generator)!
 
@@ -31,12 +31,12 @@ const femaleFirstName = firstName('US', 1);
 
 // Generate Surnames
 const turkishSurname = lastName('TR');
-const fiveCzechFemaleSurnames = lastName('CZ', 5, 1);
+const czechFemaleSurname = lastName('CZ', 1);
 
 // Generate Multiple Names
-const twoMaleFirstNames = firstName('US', 0, 2);
-const twoLastNames = lastName('US', 2);
-const twoNamesThreeSurnamesFemaleFullName = fullName('US', 1, 2, 3);
+const twoAmericanMaleFirstNames = firstName('US', 0, 2);
+const twoAmericanLastNames = lastName('US', null, 2);
+const twoAmericanNamesThreeSurnamesFemaleFullName = fullName('US', 1, 2, 3);
 ````
 
 ## Functions
@@ -49,35 +49,34 @@ Generates a full name based on the provided parameters.
 fullName(isoCode: string, gender: Gender, firstN: number = 1, lastN: number = 1, space: string = ' '): string
 ```
 
-- **isoCode**: The ISO code for the country (US, TR).
+- **isoCode**: The ISO code for the country (e.g., BR, CZ, US).
 - **gender**: Gender category for the name. (0 - Male, 1 - Female).
-- **firstN**: Number of first names (default is 1).
-- **lastN**: Number of surnames (default is 1).
-- **space**: Separator between names (default is a whitespace).
+- **firstN**: Number of first names to be generated (default is 1).
+- **lastN**: Number of surnames to be generated (default is 1).
+- **space**: Separator between the first names and surnames (default is a single whitespace).
 
 ### firstName
 
-Generates one or more first names.
+Generates one or more first names based on the provided country code and gender.
 
 ```js
 firstName(isoCode: string, gender: Gender, n: number = 1): string
 ```
 
-- **isoCode**: The ISO code for the country (US, TR).
+- **isoCode**: The ISO code for the country (e.g., BR, CZ, US).
 - **gender**: Gender category for the name. (0 - Male, 1 - Female).
 - **n**: Number of first names to generate (default is 1).
 
 ### lastName
 
-Generates one or more surnames.
-
+Generates one or more surnames. For some countries like the Czech Republic, gender is considered.
 ```js
-lastName(isoCode: string, n: number = 1, gender: Gender | null): string
+lastName(isoCode: string, gender?: Gender, n: number = 1): string
 ```
 
 - **isoCode**: The ISO code for the country (US, TR).
-- **n**: Number of surnames to generate (default is 1).
-- **gender**: Gender category for the surname, needed for Czech surnames. (0 - Male, 1 - Female).
+- **gender**: (Optional) Gender category for the surname. Required for countries like the Czech Republic. (0 - Male, 1 - Female).
+- **n**: Number of surnames to generate (default is 1).ch surnames. (0 - Male, 1 - Female).
 
 ## License
 

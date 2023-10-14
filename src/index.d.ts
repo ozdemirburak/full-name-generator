@@ -1,5 +1,5 @@
 type Names = Record<string, Record<number, string[]>>;
-type Surnames = Record<string, string[]>;
+type Surnames = Record<string, string[] | Record<number, string[]>>;
 
 enum Gender {
     Male = 0,
