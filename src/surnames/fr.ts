@@ -1,5 +1,5 @@
 const frenchSurnames = [
-  //https://www.insee.fr/fr/statistiques/3532172
+  // https://en.wikipedia.org/wiki/French_name
   "DUBOIS","DUPONT","DURAND","MARTIN","BERNARD","PETIT","THOMAS","RICHARD","ROBERT","MOREAU",
   "SIMON","LAURENT","LEROY","GARCIA","DAVID","BERTRAND","ROUX","VINCENT","FERRAND","CLARK",
   "MILLER","GUILLEMET","FABRE","FABIEN","NOËL","RENAUD","ROUSSEAU","LEFÈVRE","MARCHAND","GUÉRIN",
