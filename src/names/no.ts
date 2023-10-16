@@ -1,17 +1,17 @@
 const norwegianNames = {
-    0: [ // Male names - https://en.wikipedia.org/ , https://www.behindthename.com/
-        'Olav', 'Erik', 'Anders', 'Lars', 'Kjell', 'Ole', 'Sigurd', 'Per', 'Bjørn', 'Henrik',
-        'Petter', 'Kristian', 'Tore', 'Leif', 'Gunnar', 'Jon', 'Andreas', 'Svein', 'Geir', 'Espen',
-        'Arne', 'Einar', 'Øyvind', 'Morten', 'Jørgen', 'Stian', 'Tom', 'Odd', 'Ivar', 'Terje',
-        'Frode', 'Knut', 'Vidar', 'Kjetil', 'Roger', 'Torbjørn', 'Håvard', 'Børre', 'Jan', 'Stig',
-        'Jarl', 'Vegard', 'Kai', 'Magnus', 'Sondre', 'Erling', 'Joakim', 'Mikael', 'Lasse', 'Jo'
+    0: [ // https://web.archive.org/web/20231016162733/https://www.ssb.no/befolkning/navn/statistikk/navn
+        'Jakob', 'Noah', 'Emil', 'Lucas', 'Oliver', 'Isak', 'William', 'Filip', 'Aksel', 'Theodor',
+        'Ludvig', 'Oskar', 'Liam', 'Johannes', 'Elias', 'Kasper', 'Magnus', 'Tobias', 'Henrik', 'Mathias',
+        'Olav', 'Viktor', 'Ulrik', 'Matheo', 'Adam', 'Gustav', 'Muhammad', 'Sander', 'Alfred', 'Håkon',
+        'Theo', 'Herman', 'Benjamin', 'Jonas', 'Mikkel', 'Odin', 'Birk', 'Johan', 'Leon', 'Felix',
+        'Even', 'Sebastian', 'Vetle', 'Iver', 'Leo', 'Jens', 'Markus', 'Alexander', 'Kristian', 'Sverre',
     ],
-    1: [ // Female names - https://en.wikipedia.org/ , https://www.behindthename.com/
-        'Ingrid', 'Hanna', 'Sofie', 'Marte', 'Nora', 'Ida', 'Emilie', 'Helene', 'Amalie', 'Inger',
-        'Julie', 'Anna', 'Maria', 'Elise', 'Hedda', 'Lena', 'Thea', 'Mathilde', 'Sara', 'Linn',
-        'Hilde', 'Vilde', 'Camilla', 'Siri', 'Rebekka', 'Elin', 'Karoline', 'Silje', 'Anette', 'Marthe',
-        'Hildegunn', 'Eli', 'Astrid', 'Mia', 'Andrea', 'Eline', 'Malin', 'Anja', 'Caroline', 'Pia',
-        'Kristine', 'Jeanette', 'Hege', 'Vivian', 'Guro', 'Charlotte', 'Kari', 'Gry', 'Susanne', 'Cecilie'
+    1: [ // https://web.archive.org/web/20231016162733/https://www.ssb.no/befolkning/navn/statistikk/navn
+        'Nora', 'Emma', 'Olivia', 'Ella', 'Sofie', 'Leah', 'Frida', 'Iben', 'Sofia', 'Sara',
+        'Maja', 'Ingrid', 'Alma', 'Selma', 'Emilie', 'Ada', 'Astrid', 'Hedda', 'Anna', 'Amalie',
+        'Ellinor', 'Aurora', 'Hedvig', 'Tiril', 'Hanna', 'Eva', 'Jenny', 'Mia', 'Vilde', 'Mathilde',
+        'Ida', 'Lilly', 'Linnea', 'Live', 'Marie', 'Ellie', 'Sigrid', 'Thea', 'Julie', 'Amelia',
+        'Luna', 'Amanda', 'Solveig', 'Tuva', 'Mie', 'Agnes', 'Josefine', 'Hermine', 'Signe', 'Ylva'
     ]
 };
 

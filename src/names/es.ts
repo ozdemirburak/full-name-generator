@@ -1,17 +1,17 @@
 const spanishNames = {
-    0: [ // Male names - Sources: https://www.ine.es/, https://www.rae.es/, https://forebears.io/, https://www.behindthename.com/, https://mydailyspanish.com/, https://www.familyeducation.com/
-        'Alejandro', 'Álvaro', 'Antonio', 'Carlos', 'Daniel', 'David', 'Diego', 'Eduardo', 'Enrique', 'Felipe',
-        'Fernando', 'Francisco', 'Gabriel', 'Gonzalo', 'Guillermo', 'Héctor', 'Hugo', 'Ignacio', 'Iván', 'Javier',
-        'Jorge', 'José', 'Juan', 'Julio', 'Lorenzo', 'Luis', 'Manuel', 'Marcos', 'Mario', 'Martín',
-        'Mateo', 'Miguel', 'Nicolás', 'Oscar', 'Pablo', 'Pedro', 'Rafael', 'Raúl', 'Ricardo', 'Roberto',
-        'Rodrigo', 'Rubén', 'Salvador', 'Samuel', 'Santiago', 'Sergio', 'Tomás', 'Víctor', 'Vicente', 'Xavier'
+    0: [ // Nombres 100 - https://web.archive.org/web/20231016113749/https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177009&menu=resultados&idp=1254734710990
+        'José', 'Antonio', 'Juan', 'Manuel', 'Francisco', 'Luis', 'Javier', 'Miguel', 'Carlos', 'Ángel',
+        'Jesús', 'David', 'Daniel', 'Pedro', 'Alejandro', 'María', 'Alberto', 'Pablo', 'Fernando', 'Rafael',
+        'Jorge', 'Ramón', 'Sergio', 'Enrique', 'Andrés', 'Diego', 'Adrián', 'Vicente', 'Víctor', 'Álvaro',
+        'Ignacio', 'Raúl', 'Eduardo', 'Iván', 'Óscar', 'Rubén', 'Joaquín', 'Santiago', 'Mario', 'Roberto',
+        'Gabriel', 'Marcos', 'Alfonso', 'Jaime', 'Ricardo', 'Hugo', 'Julio', 'Emilio', 'Martín', 'Salvador',
     ],
-    1: [ // Female names - Sources: https://www.ine.es/, https://www.rae.es/, https://forebears.io/, https://www.behindthename.com/, https://mydailyspanish.com/, https://www.familyeducation.com/
-        'Adriana', 'Alejandra', 'Alicia', 'Ana', 'Andrea', 'Beatriz', 'Carla', 'Carmen', 'Carolina', 'Catalina',
-        'Claudia', 'Cristina', 'Daniela', 'Diana', 'Elena', 'Elisa', 'Emma', 'Eva', 'Fátima', 'Gabriela',
-        'Gloria', 'Irene', 'Isabel', 'Laura', 'Lucía', 'María', 'Marina', 'Marta', 'Mónica', 'Natalia',
-        'Noelia', 'Olivia', 'Paula', 'Raquel', 'Rebeca', 'Rita', 'Rosa', 'Sandra', 'Sofía', 'Sonia',
-        'Susana', 'Tamara', 'Teresa', 'Ursula', 'Valeria', 'Vanessa', 'Victoria', 'Virginia', 'Ximena', 'Yolanda'
+    1: [ // Nombres 100 - https://web.archive.org/web/20231016113749/https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177009&menu=resultados&idp=1254734710990
+        'María', 'Carmen', 'Ana', 'Isabel', 'Dolores', 'Pilar', 'Teresa', 'Rosa', 'Josefa', 'Cristina',
+        'Laura', 'Ángeles', 'Elena', 'Antonia', 'Lucía', 'Marta', 'Francisca', 'Mercedes', 'Luisa', 'Concepción',
+        'Rosario', 'Jose', 'Paula', 'Sara', 'Raquel', 'Rocío', 'Eva', 'Patricia', 'Beatriz', 'Victoria',
+        'Juana', 'Manuela', 'Julia', 'Jesús', 'Andrea', 'Belén', 'Alba', 'Silvia', 'Esther', 'Irene',
+        'Nuria', 'Encarnación', 'Montserrat', 'Sandra', 'Ángela', 'Mónica', 'Alicia', 'Inmaculada', 'Yolanda', 'Mar',
     ]
 }
 

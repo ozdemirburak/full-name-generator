@@ -1,20 +1,18 @@
 const thaiNames = {
-    0: [ // Male names - https://honeyname.com/thai-boy-names/
-        'Abhisit', 'Adisorn', 'Chaow', 'Amonsak', 'Benz', 'Amree', 'Kasem ', 'Angkhan', 'Kongphop', 'Lamon',
-        'Chatri', 'Arkhom', 'Mongkut', 'Narong', 'Prem', 'Khemkhaeng', 'Ram', 'Chakrii', 'Mee Noi', 'Chaiya',
-        'Krid', 'Kraisee', 'Kovit', 'Piyabutr', 'Phoom', 'Chakan ', 'Phichit', 'Nakhun', 'Kasem', 'Kamnan',
-        'Nakhun', 'Whitt', 'Piyabutr ', 'Lek', 'Thanwa', 'Thahan', 'Tanawat', 'Sumate', 'Sirichai', 'Ritthirong',
-        'Sakda', 'Thinnakorn', 'Wisit', 'Jirayu', 'Yut', 'Boon-nam', 'Thaksin', 'Som Phon', 'Ritthirong', 'Decha'
+    0: [ // https://web.archive.org/web/20231016191816/https://raw.githubusercontent.com/unnawut/thai-names/master/FIRST_NAMES_MALE.txt
+        'กิตติ', 'ชัชชัย', 'จรัล', 'จิรายุ', 'ณรงค์', 'ธนภัทร', 'ประชา', 'พงศ์กฤต', 'พัลลภ', 'ภัคพล',
+        'วรพล', 'วีรพล', 'สมชาย', 'อาณัติ', 'อิทธิชัย', 'เจตน์', 'ชัยวุฒิ', 'ดนัย', 'ธีรพล', 'นราธิป',
+        'บัณฑิต', 'วรเทพ', 'สมศักดิ์', 'อรรณพ', 'ปัญจพล', 'ภูมิพัฒน์', 'มงคล', 'วัชรพล', 'สุทธิพงษ์', 'อนุภัทร',
+        'ทวีเดช', 'ณัฐกฤต', 'พิริยะศักดิ์', 'ศุภณัฐ', 'สิทธินนท์', 'ธนชาติ', 'ทรงกฤต', 'ณัฐพงศ์', 'พันธ์พงษ์', 'วิชาญ',
+        'ธนาธิป', 'ไชยวัฒน์', 'วิทวัส', 'วิโรจน์', 'อารักษ์', 'ไพศาล', 'จิรายุทธ', 'ณัฏฐชัย', 'วีรยุทธ', 'ภูมิ',
     ],
-    1: [ // Female names - https://www.momjunction.com/baby-names/thai/girl/
-        'Sanoh', 'Samorn', 'Rochana', 'Lawan', 'Malivalaya', 'Kulap', 'Prija', 'Khun Mae', 'Phawta', 'Malee',
-        'Karnchana', 'Hom', 'Duanphen', 'Saengdao', 'Tasanee', 'Duangkamol', 'Sunstra', 'Daw', 'Malai', 'Phailin',
-        'Phaibun', 'Kanok', 'Pensri', 'Makok', 'Karawek', 'Busarakham', 'Boonsri', 'Pimchan', 'Madee', 'Lawana',
-        'Name1', 'Mild', 'Aom', 'Beam', 'Fern', 'Gan', 'Kohsoom', 'Ploy', 'Lamai', 'Achara',
-        'Tida', 'Nin', 'Phitsamai', 'Sopa', 'Kanokwan', 'Mayuree', 'Sirikit', 'Phueng', 'Sanouk', 'Suda',
+    1: [ // https://web.archive.org/web/20231016191833/https://raw.githubusercontent.com/unnawut/thai-names/master/FIRST_NAMES_FEMALE.txt
+        'กนกพรรณ', 'กนกนุช', 'กมลทิพย์', 'กรกมล', 'กรุณา', 'กิตติมา', 'กัลยาณี', 'จรรยา', 'จินตา', 'จินตพร',
+        'ณัฏฐิกา', 'ณัฐชา', 'ณิชา', 'ดารินทร์', 'นภา', 'นรีรัตน์', 'นฤมล', 'บุณยนุช', 'ปฐมา', 'ประภัสสร',
+        'ปรียา', 'พรพิมล', 'พรรณทิพย์', 'พัชรมัย', 'พิมลรัตน์', 'รติมา', 'รัชนี', 'วรรณพร', 'วิภาดา', 'วันทนีย์',
+        'สมพร', 'สาวิตรี', 'อภิรดี', 'อรชร', 'อรพรรณ', 'อินตรา', 'เกตุมณี', 'เบญจพร', 'เบญจวรรณ', 'เพ็ญประภา',
+        'เลอลักษณ์', 'เสาวรส', 'แก้วทิพย์', 'แสงจันทร์', 'ไปรยา', 'ชมพูนุช', 'ชนิภา', 'ทิพย์รัตน์', 'ณัฏฐธิดา', 'วรกานต์',
     ]
 }
-
- 
 
 export default thaiNames;

@@ -1,11 +1,9 @@
-const russianSurnames = [
-    //https://forebears.io/russia/surnames
-   "Ivanova", "Ivanov", "Kuznetsova", "Kuznetsov", "Petrov", "Smirnova", "Magomedov", "Petrova", "Smirnov", "Popov",
-   "Popova", "Volkova", "Novikova", "Morozova", "Sokolova", "Pavlova", "Romanova", "Volkov", "Shevchenko", "Andreeva",
-   "Vasilev", "Vasileva", "Mikhaylova", "Novikov", "Makarova", "Morozov", "Sergeeva", "Pavlov", "Zaytseva", "Sokolov",
-   "Aliev", "Mikhaylov", "Nikolaeva", "Romanov", "Zakharova", "Makarov", "Stepanova", "Lebedeva", "Kozlova", "Nikitina",
-   "Egorova", "Egorov", "Kozlov", "Nikolaev", "Stepanov", "Andreev", "Yakovleva", "Zakharov", "Kovalenko", "Frolova"
-
+const russianSurnames = [ // https://web.archive.org/web/20231016195133/https://en.wikipedia.org/wiki/List_of_surnames_in_Russia
+   'Алексеев', 'Андреев', 'Артемьев', 'Баранов', 'Белов', 'Богданов', 'Борисов', 'Васильев', 'Волков', 'Воробьев',
+   'Герасимов', 'Гончаров', 'Денисов', 'Егоров', 'Жуков', 'Захаров', 'Зайцев', 'Игнатьев', 'Иванов', 'Кириллов',
+   'Климов', 'Козлов', 'Кузнецов', 'Макаров', 'Матвеев', 'Медведев', 'Михайлов', 'Назаров', 'Никитин', 'Николаев',
+   'Носов', 'Новиков', 'Орлов', 'Павлов', 'Петров', 'Романов', 'Семенов', 'Сидоров', 'Смирнов', 'Соколов',
+   'Соловьёв', 'Степанов', 'Титов', 'Тихонов', 'Уваров', 'Ульянов', 'Федоров', 'Федотов', 'Харитонов', 'Юдин'
 ];
  
 export default russianSurnames;
