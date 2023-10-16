@@ -1,20 +1,18 @@
-const frenchNames = {
-  0: [
-    //https://www.insee.fr/fr/statistiques/3532172
-    "ABDALAH","ABDALLAH","ABDE","ABDEL","ABDEL-HAKIM","ABDEL-KADER","ABDEL-KRIM","ABDELAKIM","ABDELALI","ABDELATIF",
-    "ABDELHADI","ABDELHAFID","ABDELHAK","ABDELHAKIM","ABDELHALIM","ABDELILAH","ABDELJALIL","ABDELKADER","ABDELKRIM","ABDUL-HADI",
-    "ABDELLAH","ABDELLATIF","ABDELLAZIZ","ABDELMADJID","ABDELMAJID","ABDELMALEK","ABDELMOUNAIM","ABDELMOUMEN","ABDELNASSER","ABDELQADER",
-    "ABDELQADIR","ABDELRANI","ABDELWAHAB","ABDELWAKIL","ABDI","ABDIKADER","ABDILAHI","ABDOLLAH","ABDOULAYE","ABDOURAHMANE",
-    "ABDOURRAHMAN","ABDOURRAHMANE","ABDUL","ABDUL-AZIZ","ABDUL-HALIM","ABDUL-JALIL","ABDUL-KADER","ABDULRAHMAN","ABDULRASHID","ABDULSALAM",
+const brazilianNames = {
+  0: [ // https://web.archive.org/web/20231012093137/https://pt.wikipedia.org/wiki/Lista_de_prenomes_mais_comuns_no_Brasil
+      'José', 'João', 'Antônio', 'Francisco', 'Carlos', 'Paulo', 'Pedro', 'Lucas', 'Luíz', 'Marcos',
+      'Luís', 'Gabriel', 'Rafael', 'Daniel', 'Marcelo', 'Bruno', 'Eduardo', 'Felipe', 'Raimundo', 'Rodrigo',
+      'Manoel', 'Mateus', 'André', 'Fernando', 'Fábio', 'Leonardo', 'Gustavo', 'Guilherme', 'Leandro', 'Tiago',
+      'Ânderson', 'Ricardo', 'Márcio', 'Jorge', 'Sebastião', 'Alexandre', 'Roberto', 'Édson', 'Diego', 'Vítor',
+      'Sérgio', 'Cláudio', 'Matheus', 'Thiago', 'Geraldo', 'Adriano', 'Luciano', 'Júlio', 'Renato', 'Alex',
   ],
-  1:[
-  //https://www.insee.fr/fr/statistiques/3532172
-    "ADÈLE","AGNÈS","ALICE","AMÉLIE","ANAÏS","ANDRÉE","ANNA","ANNE","AURÉLIE","BRIGITTE",
-    "CAMILLE","CAROLINE","CATHERINE","CHARLOTTE","CHLOÉ","CHRISTINE","CLÉMENCE","CÉCILE","DANIELLE","DOMINIQUE",
-    "ELISABETH","EMMA", "ESTELLE", "FLORENCE", "FRANÇOISE", "GAËLLE", "GENEVIÈVE", "HÉLÈNE", "ISABELLE", "JULIE",
-    "LAURENCE","LUCIE","MARGUERITE","MARIE","MARTINE","MATHILDE","MONIQUE","NATHALIE","NICOLE","ODILE",
-    "OLIVIA","PATRICIA","PAULINE","SABINE","SOPHIE","VALÉRIE","VÉRONIQUE","VIRGINIE","YVONNE","Élodie"
+  1: [ // https://web.archive.org/web/20231012093137/https://pt.wikipedia.org/wiki/Lista_de_prenomes_mais_comuns_no_Brasil
+      'Maria', 'Ana', 'Francisca', 'Antônia', 'Adriana', 'Juliana', 'Márcia', 'Fernanda', 'Patrícia', 'Aline',
+      'Sandra', 'Camila', 'Amanda', 'Bruna', 'Jéssica', 'Letícia', 'Júlia', 'Luciana', 'Vanessa', 'Mariana',
+      'Gabriela', 'Vera', 'Vitória', 'Larissa', 'Cláudia', 'Beatriz', 'Luana', 'Rita', 'Sônia', 'Renata',
+      'Eliane', 'Josefa', 'Simone', 'Natália', 'Cristiane', 'Carla', 'Débora', 'Rosângela', 'Jaqueline', 'Rosa',
+      'Daniela', 'Aparecida', 'Marlene', 'Terezinha', 'Raimunda', 'Andréia', 'Fabiana', 'Lúcia', 'Raquel', 'Ângela',
   ]
 };
 
-export default frenchNames;
+export default brazilianNames;
