@@ -11,6 +11,7 @@ import it from './surnames/it';
 import ko from './surnames/ko';
 import nl from './surnames/nl';
 import no from './surnames/no';
+import pl from './surnames/pl';
 import pt from './surnames/pt';
 import ru from './surnames/ru';
 import sa from './surnames/sa';
@@ -22,6 +23,6 @@ import vn from './surnames/vn';
 
 export const surnames: Surnames = {
     at, br, cz, de, es, fi, gb, il, in: _in, it,
-    ko, nl, no, pt, ru, sa, sv, th, tr, us,
-    vn
+    ko, nl, no, pl, pt, ru, sa, sv, th, tr,
+    us, vn
 };

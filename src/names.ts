@@ -11,6 +11,7 @@ import it from './names/it';
 import ko from './names/ko';
 import nl from './names/nl';
 import no from './names/no';
+import pl from './names/pl';
 import pt from './names/pt';
 import ru from './names/ru';
 import sa from './names/sa';
@@ -22,6 +23,6 @@ import vn from './names/vn';
 
 export const names: Names = {
     at, br, cz, de, es, fi, gb, il, in: _in, it,
-    ko, nl, no, pt, ru, sa, sv, th, tr, us,
-    vn
+    ko, nl, no, pl, pt, ru, sa, sv, th, tr,
+    us, vn
 };

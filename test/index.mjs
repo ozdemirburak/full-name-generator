@@ -6,6 +6,8 @@ const countries = [
   'nl', 'no', 'pt', 'ru', 'sa', 'sv', 'th', 'tr', 'us', 'vn'
 ];
 
+const exceptionCountries = ['cz', 'pl'];
+
 describe('full name generator', () => {
   it('generates first name', () => {
     for (let c in countries) {
@@ -19,11 +21,13 @@ describe('full name generator', () => {
       assert.ok(lastName(countries[c], null, 3).length > 3);
     }
   });
-  it('generates czech names', () => {
-    assert.ok(firstName('CZ', 0).length > 0);
-    assert.ok(firstName('CZ', 1).length > 0);
-    assert.ok(lastName('CZ', 0, 1).length > 0);
-    assert.ok(lastName('CZ', 1, 1).length > 0);
+  it('generates czech and polish names', () => {
+    for (let c in exceptionCountries) {
+      assert.ok(firstName(exceptionCountries[c], 0).length > 0);
+      assert.ok(firstName(exceptionCountries[c], 1).length > 0);
+      assert.ok(lastName(exceptionCountries[c], 0, 1).length > 0);
+      assert.ok(lastName(exceptionCountries[c], 1, 1).length > 0);
+    }
   });
   it('generates full name', () => {
     for (let c in countries) {
@@ -36,7 +40,9 @@ describe('full name generator', () => {
     assert.ok(fullName('CZ', 1).length >= 2);
   });
   it('generates czech multiple names', () => {
-    assert.ok(fullName('CZ', 0).length >= 2);
-    assert.ok(fullName('CZ', 1).length >= 2);
+    for (let c in exceptionCountries) {
+      assert.ok(fullName(exceptionCountries[c], 0).length >= 2);
+      assert.ok(fullName(exceptionCountries[c], 1).length >= 2);
+    }
   });
 });
