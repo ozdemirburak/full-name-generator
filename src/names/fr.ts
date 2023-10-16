@@ -1,19 +1,18 @@
 const frenchNames = {
-    0: [//https://www.insee.fr/fr/statistiques/3532172
-      "abdalah","abdallah","abde","abdel","abdel-hakim","abdel-kader","abdel-krim","abdelakim","abdelali","abdelatif",
-      "abdelhadi","abdelhafid","abdelhak","abdelhakim","abdelhalim","abdelilah","abdeljalil","abdelkader","abdelkrim","abdul-hadi",
-      "abdellah","abdellatif","abdellaziz","abdelmadjid","abdelmajid","abdelmalek","abdelmounaim","abdelmoumen","abdelnasser","abdelqader",
-      "abdelqadir","abdelrani","abdelwahab","abdelwakil","abdi","abdikader","abdilahi","abdollah","abdoulaye","abdourahmane",
-      "abdourrahman","abdourrahmane","abdul","abdul-aziz","abdul-halim","abdul-jalil","abdul-kader","abdulrahman","abdulrashid","abdulsalam",
-    ],
-    1:[//https://www.insee.fr/fr/statistiques/3532172
-    "adèle","agnès","alice","amélie","anaïs","andrée","anna","anne","aurélie","brigitte",
-    "camille","caroline","catherine","charlotte","chloé","christine","clémence","cécile","danielle","dominique",
-    "elisabeth","emma", "estelle", "florence", "françoise", "gaëlle", "geneviève", "hélène", "isabelle", "julie",
-    "laurence","lucie","marguerite","marie","martine","mathilde","monique","nathalie","nicole","odile",
-    "olivia","patricia","pauline","sabine","sophie","valérie","véronique","virginie","yvonne","élodie"
-    ]
-  };
-  
-  export default frenchNames;
-  
+  0: [ // 2000 ~ 2022 - https://web.archive.org/web/20231016211828/https://www.insee.fr/fr/outil-interactif/3532172/xml/Top100prenoms.xml
+      'Lucas', 'Hugo', 'Enzo', 'Louis', 'Nathan', 'Théo', 'Gabriel', 'Léo', 'Thomas', 'Jules', 
+      'Arthur', 'Raphaël', 'Mathis', 'Tom', 'Maxime', 'Paul', 'Clément', 'Adam', 'Antoine', 'Ethan', 
+      'Noah', 'Alexandre', 'Baptiste', 'Axel', 'Yanis', 'Alexis', 'Valentin', 'Mathéo', 'Sacha', 'Quentin', 
+      'Mohamed', 'Nolan', 'Victor', 'Maxence', 'Gabin', 'Evan', 'Romain', 'Liam', 'Nicolas', 'Martin', 
+      'Rayan', 'Samuel', 'Maël', 'Simon', 'Benjamin', 'Robin', 'Adrien', 'Pierre', 'Julien', 'Mattéo', 
+  ],
+  1: [ // 2000 ~ 2022 - https://web.archive.org/web/20231016211828/https://www.insee.fr/fr/outil-interactif/3532172/xml/Top100prenoms.xml
+      'Emma', 'Léa', 'Manon', 'Chloé', 'Jade', 'Camille', 'Louise', 'Inès', 'Sarah', 'Clara', 
+      'Lola', 'Lucie', 'Eva', 'Alice', 'Lina', 'Zoé', 'Juliette', 'Marie', 'Anaïs', 'Léna', 
+      'Romane', 'Océane', 'Ambre', 'Mathilde', 'Jeanne', 'Lou', 'Lilou', 'Charlotte', 'Lisa', 'Anna', 
+      'Laura', 'Julie', 'Pauline', 'Julia', 'Louna', 'Clémence', 'Margaux', 'Rose', 'Nina', 'Célia', 
+      'Agathe', 'Justine', 'Alicia', 'Margot', 'Elisa', 'Léonie', 'Mila', 'Elise', 'Luna', 'Emilie',
+  ]
+};
+
+export default frenchNames;

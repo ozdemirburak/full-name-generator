@@ -1,10 +1,9 @@
-const frenchSurnames = [
-  // https://en.wikipedia.org/wiki/French_name
-  "DUBOIS","DUPONT","DURAND","MARTIN","BERNARD","PETIT","THOMAS","RICHARD","ROBERT","MOREAU",
-  "SIMON","LAURENT","LEROY","GARCIA","DAVID","BERTRAND","ROUX","VINCENT","FERRAND","CLARK",
-  "MILLER","GUILLEMET","FABRE","FABIEN","NOËL","RENAUD","ROUSSEAU","LEFÈVRE","MARCHAND","GUÉRIN",
-  "BOUCHER","LEBRUN","DUVAL","PERRIN","MORIN","DESCHAMPS","COLIN","CARON","GUILLAUME","MATHIEU",
-  "DELAUNAY","GERMAIN","ROYER","LOISEAU","SCHMITT","ROUSSEL","DUPUIS","LECLERC","SANCHEZ","GÉRARD",
-]
+const frenchSurnames = [ // https://web.archive.org/web/20231016213609/https://fr.wikipedia.org/wiki/Liste_des_noms_de_famille_les_plus_courants_en_France
+    'Martin', 'Bernard', 'Thomas', 'Petit', 'Robert', 'Richard', 'Durand', 'Dubois', 'Moreau', 'Laurent', 
+    'Simon', 'Michel', 'Lefebvre', 'Leroy', 'Roux', 'David', 'Bertrand', 'Morel', 'Fournier', 'Girard', 
+    'Bonnet', 'Dupont', 'Lambert', 'Fontaine', 'Rousseau', 'Vincent', 'Muller', 'Lefevre', 'Faure', 'Andre', 
+    'Mercier', 'Blanc', 'Guerin', 'Boyer', 'Garnier', 'Chevalier', 'Francois', 'Legrand', 'Gauthier', 'Garcia', 
+    'Perrin', 'Robin', 'Clement', 'Morin', 'Nicolas', 'Henry', 'Roussel', 'Mathieu', 'Gautier', 'Masson', 
+];
 
 export default frenchSurnames;
