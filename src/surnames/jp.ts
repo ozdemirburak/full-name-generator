@@ -1,10 +1,9 @@
-const japaneseSurnames = [ 
-    // https://en.wikipedia.org/wiki/Category:Japanese-language_surnames
-    'Adachi', 'Aiso','Asagiri', 'Akada','Akane','Amuro','Chidori','Chigusa','Chisaka','Dobayashi',
-    'Ebisu','Egami','Esashi','Ezumi','Emon','Fubuki','Fueki','Fujihara','Fujikawa','Fukikoshi',
-    'Futaba','Futara','Hachisuka','Hagihara','Hagimoto','Hagimura','Hachisu','Hagino','Maeda','Machino',
-    'Maehara','Maeno','Maeshiro','Makishima','Makiyama','Marumo','Maruya','Matayoshi','Mitsuda','Miyama',
-    'Takahashi','Takagi','Takamiya','Takamori','Takami','Takamoto','Takamura','Taneda','Wakahara','Ushioda'
+const japaneseSurnames = [  // https://web.archive.org/web/20231017155553/https://ja.wikipedia.org/wiki/%E4%BA%BA%E6%95%B0%E3%81%AE%E5%A4%9A%E3%81%84%E6%97%A5%E6%9C%AC%E3%81%AE%E8%8B%97%E5%AD%97%E4%B8%80%E8%A6%A7
+    '佐藤', '鈴木', '高橋', '田中', '渡辺', '伊藤', '中村', '小林', '山本', '加藤',
+    '吉田', '山田', '佐々木', '山口', '松本', '井上', '木村', '清水', '林', '斉藤',
+    '斎藤', '山崎', '中島', '森', '阿部', '池田', '橋本', '石川', '山下', '小川',
+    '石井', '長谷川', '後藤', '岡田', '近藤', '前田', '藤田', '遠藤', '青木', '坂本',
+    '村上', '太田', '金子', '藤井', '福田', '西村', '三浦', '竹内', '中川', '岡本',
 ];
 
 export default japaneseSurnames;

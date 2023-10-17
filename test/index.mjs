@@ -2,8 +2,9 @@ import assert from 'assert';
 import { fullName, firstName, lastName } from '../src/index.js';
 
 const countries = [
-  'at', 'br', 'de', 'es', 'fi', 'gb', 'il', 'in', 'it', 'ko',
-  'nl', 'no', 'pt', 'ru', 'sa', 'sv', 'th', 'tr', 'us', 'vn'
+  'at', 'br', 'cn', 'de', 'es', 'fi', 'fr', 'gb', 'id', 'il',
+  'in', 'it', 'jp', 'ko', 'nl', 'no', 'pt', 'ru', 'sa', 'sv',
+  'th', 'tr', 'us', 'vn'
 ];
 
 const exceptionCountries = ['cz', 'pl'];
