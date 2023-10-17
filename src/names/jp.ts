@@ -7,7 +7,7 @@ const japaneseNames = {
         'Kanehiro','Katsu','Katsuya','Mahiro','Makito','Manabu','Mahito','Masamura','Naofumi','Nagatoki'
     ],
     1: [ // https://en.wikipedia.org/wiki/Category:Japanese_feminine_given_names
-        'Atsuko','Asaka','Asagiri','Ariko','Ayami','Asumi','Chiho','Chizuru','Chiyako','Eiko','Fumi',
+        'Atsuko','Asaka','Ariko','Ayami','Asumi','Chiho','Chizuru','Chiyako','Eiko','Fumi',
         'Ayane','Haruyo','Hasumi','Hibari','Haruno','Hinako','Hiroe','Hinako','Inori','Itsumi',
         'Kaede','Kahori','Kaori','Kanoko','kimiko','Kotori','Maika','Makiko','Manaka','Megumi',
         'Michi','Midori','Mikako','Nagako','Nanami','Naru','Natsue','Nonoka','Noriyo','Reiko',

@@ -1,6 +1,6 @@
 const japaneseSurnames = [ 
     // https://en.wikipedia.org/wiki/Category:Japanese-language_surnames
-    'Adachi', 'Aiso', 'Akada','Akane','Amuro','Chidori','Chigusa','Chisaka','Dobayashi',
+    'Adachi', 'Aiso','Asagiri', 'Akada','Akane','Amuro','Chidori','Chigusa','Chisaka','Dobayashi',
     'Ebisu','Egami','Esashi','Ezumi','Emon','Fubuki','Fueki','Fujihara','Fujikawa','Fukikoshi',
     'Futaba','Futara','Hachisuka','Hagihara','Hagimoto','Hagimura','Hachisu','Hagino','Maeda','Machino',
     'Maehara','Maeno','Maeshiro','Makishima','Makiyama','Marumo','Maruya','Matayoshi','Mitsuda','Miyama',
