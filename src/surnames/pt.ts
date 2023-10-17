@@ -1,11 +1,9 @@
-const portugueseSurnames = [ // https://www.behindthename.com/, https://surnam.es/, https://forebears.io/, https://www.ine.pt/, https://www.irn.mj.pt/
-    'Abreu', 'Alves', 'Andrade', 'Amaral', 'Amorim', 'Azevedo', 'Barbosa', 'Barroso', 'Bento', 'Bernardo',
-    'Brandão', 'Cabral', 'Cardoso', 'Carvalho', 'Castro', 'Coelho', 'Correia', 'Costa', 'Costa Silva', 'Cunha',
-    'Dias', 'Duarte', 'Fernandes', 'Fernandes Gonçalves', 'Ferreira', 'Ferreira da Silva', 'Ferreira Pinto', 'Figueiredo', 'Fonseca', 'Gomes',
-    'Gonçalves', 'Gonçalves Costa', 'Leitão', 'Lima', 'Lopes', 'Lopes da Silva', 'Machado', 'Marques', 'Martins', 'Martins Silva',
-    'Mendes', 'Miranda', 'Monteiro', 'Morais', 'Moreira', 'Nunes', 'Oliveira', 'Oliveira Costa', 'Oliveira Silva', 'Pereira',
-    'Pereira da Silva', 'Pereira Pinto', 'Pinto', 'Pinto Costa', 'Pinto Silva', 'Ramalho', 'Rodrigues', 'Santos', 'Silva', 'Silva Costa',
-    'Silva Oliveira', 'Silva Pinto', 'Sousa', 'Sousa Dias', 'Sousa Lopes', 'Sousa Martins', 'Teixeira', 'Vasconcelos', 'Vieira'
+const portugueseSurnames = [ // https://web.archive.org/web/20231016204252/https://pt.wikipedia.org/wiki/Lista_dos_cem_apelidos_mais_frequentes_em_Portugal
+    'Silva', 'Santos', 'Ferreira', 'Pereira', 'Oliveira', 'Costa', 'Rodrigues', 'Martins', 'Jesus', 'Sousa',
+    'Fernandes', 'Gonçalves', 'Gomes', 'Lopes', 'Marques', 'Alves', 'Almeida', 'Ribeiro', 'Pinto', 'Carvalho',
+    'Teixeira', 'Moreira', 'Correia', 'Mendes', 'Nunes', 'Soares', 'Vieira', 'Monteiro', 'Cardoso', 'Rocha',
+    'Raposo', 'Neves', 'Coelho', 'Cruz', 'Cunha', 'Pires', 'Ramos', 'Reis', 'Simões', 'Antunes',
+    'Matos', 'Fonseca', 'Machado', 'Araújo', 'Barbosa', 'Tavares', 'Lourenço', 'Castro', 'Figueiredo', 'Azevedo',
 ];
 
 export default portugueseSurnames;

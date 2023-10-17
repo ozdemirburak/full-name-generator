@@ -14,5 +14,5 @@ const brazilianNames = {
       'Daniela', 'Aparecida', 'Marlene', 'Terezinha', 'Raimunda', 'Andréia', 'Fabiana', 'Lúcia', 'Raquel', 'Ângela',
   ]
 };
-
 export default brazilianNames;
+

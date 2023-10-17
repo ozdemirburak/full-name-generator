@@ -1,23 +1,17 @@
 const koreanNames = {
-    0: [ // https://www.behindthename.com/names/gender/masculine/usage/korean
-        'Byeong-Ho', 'Byung-Ho', 'Dae-Jung', 'Dae-Seong', 'Dong-Geun',
-        'Do-Yun', 'Duri', 'Eun', 'Eun-Jung', 'Eun-U',
-        'Eun-Woo', 'Gyeong', 'Ha-Jun', 'Haneul', 'Hwan',
-        'Hye', 'Hyeon', 'Hyeon-Jeong', 'Hyeon-Ju', 'Hyeon-U',
-        'Hyun', 'Hyun-Joo', 'Hyun-Jung', 'Hyun-Woo', 'Il-Seong',
-        'Iseul', 'Jae', 'Jae-Seong', 'Jeong', 'Jeong-Ho',
-        'Jeong-Hui', 'Jeong-Hun', 'Ji', 'Ji-Ho', 'Ji-Hoon',
-        'Ji-Hu', 'Ji-Hun', 'Ji-Min', 'Ji-Soo', 'Ji-Su',
-        'Ji-U', 'Ji-Won', 'Ji-Woo', 'Ji-Yeong', 'Ji-Young',
-        'Jong', 'Jong-Su', 'Joon', 'Joon-Ho', 'Joo-Won',
-        'Jun'
+    0: [ // 2008 ~ 2023 - https://web.archive.org/web/20231016160058/https://stfamily.scourt.go.kr/st/StFrrStatcsView.do?pgmId=090000000025 - 서울특별시 중랑구청
+        '이준', '이안', '태오', '지호', '도윤', '시우', '하준', '도현', '서준', '선우',
+        '수호', '은우', '이현', '우주', '이든', '주원', '예준', '유준', '윤우', '준우',
+        '기타', '우진', '건우', '서진', '민준', '지후', '시윤', '준서', '현우', '지훈',
+        '수현', '정우', '연우', '로운', '서우', '한결', '지민', '승민', '승우', '재현',
+        '예성', '은찬', '재원', '지우', '지환', '동현', '진우', '준영', '승현', '영호',
     ],
-    1: [ // https://www.behindthename.com/names/gender/feminine/usage/korean
-        'Bora', 'Chae-Won', 'Chae-Yeong', 'Chae-Young', 'Duri', 'Eun', 'Eun-Gyeong', 'Eun-Jeong', 'Eun-Ji', 'Eun-Jung',
-        'Eun-Kyung', 'Eun-U', 'Eun-Woo', 'Eun-Yeong', 'Eun-Young', 'Gyeong', 'Gyeong-Hui', 'Gyeong-Ja', 'Gyeong-Suk', 'Ha-Eun',
-        'Hana', 'Haneul', 'Ha-Yun', 'Hwan', 'Hye-Jin', 'Hyeon', 'Hyeon-Jeong', 'Hyeon-Ju', 'Hyun', 'Hyun-Joo',
-        'Hyun-Jung', 'Iseul', 'Jae', 'Jeong', 'Jeong-Hui', 'Jeong-Suk', 'Ji', 'Ji-Eun', 'Ji-Hu', 'Ji-Hye',
-        'Ji-Min', 'Ji-Soo', 'Ji-Su', 'Ji-U', 'Ji-Won', 'Ji-Woo', 'Ji-Yeon', 'Ji-Yeong', 'Ji-Young', 'Ji-Yu'
+    1: [ // 2008 ~ 2023 - https://web.archive.org/web/20231016160058/https://stfamily.scourt.go.kr/st/StFrrStatcsView.do?pgmId=090000000025 - 서울특별시 중랑구청
+        '서아', '유나', '이서', '지아', '시아', '리아', '수아', '지우', '하윤', '아린',
+        '서윤', '아윤', '지안', '지유', '예나', '하린', '윤서', '재이', '유주', '나은',
+        '로아', '하은', '태리', '서연', '서현', '다은', '주아', '윤아', '예린', '채원',
+        '소율', '지윤', '민서', '지민', '소윤', '연우', '아인', '예은', '수빈', '수민',
+        '서영', '민지', '예진', '수연', '현서', '채은', '유진', '지원', '은서', '시은'
     ]
 }
 

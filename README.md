@@ -5,10 +5,7 @@
 Generate random names effortlessly using various data sources of popular first names and surnames
 from multiple countries. 
 
-**Countries**: 🇧🇷 Brazil (BR), 🇨🇿 Czechia (CZ), 🇮🇹 Italy (IT), 🇳🇱 Netherlands (NL), 🇸🇪 Sweden (SV), 
-🇹🇷 Türkiye (TR), 🇬🇧 United Kingdom (GB), 🇺🇸 United States (US)
-
-If you find this package helpful, please consider ⭐ starring it on [GitHub](https://github.com/ozdemirburak/full-name-generator)!
+If you find this package helpful, please consider ⭐ starring it on [GitHub](https://github.com/ozdemirburak/full-name-generator).
 
 ## Installation
 
@@ -38,6 +35,31 @@ const twoAmericanMaleFirstNames = firstName('US', 0, 2);
 const twoAmericanLastNames = lastName('US', null, 2);
 const twoAmericanNamesThreeSurnamesFemaleFullName = fullName('US', 1, 2, 3);
 ````
+
+## Countries
+
+- 🇦🇹 Austria (AT)
+- 🇧🇷 Brazil (BR)
+- 🇨🇿 Czechia (CZ)
+- 🇫🇮 Finland (FI)
+- 🇩🇪 Germany (DE)
+- 🇮🇱 Israel (IL)
+- 🇮🇳 India (IN)
+- 🇮🇹 Italy (IT)
+- 🇳🇱 Netherlands (NL)
+- 🇳🇴 Norway (NO)
+- 🇰🇷 South Korea (KO)
+- 🇪🇸 Spain (ES)
+- 🇵🇱 Poland (PL)
+- 🇵🇹 Portugal (PT)
+- 🇷🇺 Russia (RU)
+- 🇸🇦 Saudi Arabia (SA)
+- 🇸🇪 Sweden (SV)
+- 🇹🇭 Thailand (TH)
+- 🇹🇷 Türkiye (TR)
+- 🇬🇧 United Kingdom (GB)
+- 🇺🇸 United States (US)
+- 🇻🇳 Vietnam (VN)
 
 ## Functions
 
@@ -69,7 +91,7 @@ firstName(isoCode: string, gender: Gender, n: number = 1): string
 
 ### lastName
 
-Generates one or more surnames. For some countries like the Czech Republic, gender is considered.
+Generates one or more surnames. For some countries like the Czech Republic or Poland, gender is considered.
 ```js
 lastName(isoCode: string, gender?: Gender, n: number = 1): string
 ```
@@ -86,7 +108,7 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
   [npm-downloads]: https://img.shields.io/npm/dm/full-name-generator.svg?style=flat-square
   [npm]: https://www.npmjs.com/package/full-name-generator
 
-To reference this project, you can use the code snippet below:
+To reference this project, use the code snippet below:
 
 ```html
 <a href="https://fullnamegenerator.com">Full Name Generator</a>

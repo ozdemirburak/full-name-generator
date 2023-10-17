@@ -1,18 +1,18 @@
 const russianNames = {
-    0: [ //https://forebears.io/russia/forenames
-      "Sergey", "Aleksandr", "Andrey", "Dmitriy", "Vladimir", "Aleksey", "Maksim", "Ivan", "Evgeniy", "Alexander",
-      "Nikolay", "Mikhail", "Denis", "Roman", "Pavel", "Igor", "Anton", "Nikita", "Oleg", "Ilya",
-      "Viktor", "Alexey","Konstantin","Artyom", "Kirill", "Yuriy","Dmitry","Ruslan","Vadim", "Vitaliy",
-      "Artem","Evgeny", "Danil","Stanislav","Vyacheslav","Vladislav","Anatoliy","Maxim", "Artur","Daniil",
-      "Gennadiy","Leonid","Vitaly","Rustam", "Boris","Grigoriy", "Anatoly", "Yaroslav","Vasily", "Stepan"
+    0: [ // https://web.archive.org/web/20231016194623/https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D0%B8%D0%B5_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0
+        'Александр', 'Алексей', 'Андрей', 'Антон', 'Артём', 'Борис', 'Вадим', 'Валентин', 'Валерий', 'Василий',
+        'Виктор', 'Виталий', 'Владимир', 'Владислав', 'Вячеслав', 'Геннадий', 'Георгий', 'Григорий', 'Даниил', 'Денис',
+        'Дмитрий', 'Евгений', 'Иван', 'Игорь', 'Илья', 'Кирилл', 'Константин', 'Лев', 'Леонид', 'Максим',
+        'Марк', 'Матвей', 'Михаил', 'Никита', 'Николай', 'Олег', 'Павел', 'Пётр', 'Родион', 'Роман',
+        'Савва', 'Семён', 'Сергей', 'Станислав', 'Степан', 'Тарас', 'Тимофей', 'Фёдор', 'Филипп', 'Ярослав'
     ],
-    1: [ //https://forebears.io/russia/forenames
-      "Elena", "Tatyana", "Olga", "Natalya", "Ekaterina", "Irina", "Svetlana", "Anastasiya", "Anna", "Marina",
-      "Mariya", "Yuliya", "Darya", "Nadezhda", "Viktoriya", "Lyudmila", "Galina","Kristina", "Alina", "Kseniya",
-      "Valentina","Lyubov", "Alyona","Aleksandra","Oksana", "Evgeniya", "Anastasia","Yulia", "Elizaveta","Anya",
-      "Valeriya", "Yana", "Olesya", "Yulya", "Larisa","Diana", "Polina", "Vera","Nina", "Alena",
-      "Maria","Margarita","Oxana", "Veronika", "Inna","Karina", "Nataliya","Tamarа", "Angelina","Albina"
+    1: [ // https://web.archive.org/web/20231016194848/https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B5_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0
+        'Александра', 'Алина', 'Алиса', 'Алла', 'Анастасия', 'Ангелина', 'Анжелика', 'Анна', 'Валентина', 'Валерия',
+        'Варвара', 'Василиса', 'Вера', 'Вероника', 'Виктория', 'Галина', 'Дарья', 'Евгения', 'Екатерина', 'Елена',
+        'Елизавета', 'Жанна', 'Зинаида', 'Зоя', 'Инна', 'Ирина', 'Карина', 'Кира', 'Ксения', 'Лариса',
+        'Лидия', 'Лилия', 'Любовь', 'Людмила', 'Маргарита', 'Марина', 'Мария', 'Надежда', 'Наталья', 'Нина',
+        'Оксана', 'Ольга', 'Полина', 'Раиса', 'Светлана', 'София', 'Тамара', 'Татьяна', 'Юлия', 'Яна'
     ],
-  };
-  
+};
+
 export default russianNames;

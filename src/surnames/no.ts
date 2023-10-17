@@ -1,9 +1,9 @@
-const norwegianSurnames = [ // Surnames - https://en.wikipedia.org/ , https://www.behindthename.com/
-    'Hansen', 'Johansen', 'Olsen', 'Larsen', 'Andersen', 'Pedersen', 'Nilsen', 'Kristensen', 'Karlsen', 'Eriksen',
-    'Haugen', 'Svendsen', 'Jakobsen', 'Tangen', 'Bakke', 'Strand', 'Solberg', 'Ødegaard', 'Jensen', 'Andreassen',
-    'Berg', 'Sørensen', 'Rasmussen', 'Hagen', 'Moen', 'Thoresen', 'Gundersen', 'Hermansen', 'Johnsen', 'Sletten',
-    'Knutsen', 'Aas', 'Eide', 'Sunde', 'Myhre', 'Rønning', 'Aune', 'Lund', 'Rønningen', 'Solheim', 'Bjørnstad',
-    'Andresen', 'Nygård', 'Holm', 'Tvedt', 'Dahle', 'Sande', 'Bjerke', 'Nygaard', 'Evensen', 'Iversen'
+const norwegianSurnames = [ // https://web.archive.org/web/20231016163126/https://www.ssb.no/en/befolkning/statistikker/navn/aar/2016-01-26?fane=tabell&sort=nummer&tabell=253541
+    'Hansen', 'Johansen', 'Olsen', 'Larsen', 'Andersen', 'Pedersen', 'Nilsen', 'Kristiansen', 'Jensen', 'Karlsen',
+    'Johnsen', 'Pettersen', 'Eriksen', 'Berg', 'Haugen', 'Hagen', 'Johannessen', 'Andreassen', 'Jacobsen', 'Dahl',
+    'Jørgensen', 'Halvorsen', 'Henriksen', 'Lund', 'Sørensen', 'Jakobsen', 'Moen', 'Gundersen', 'Iversen', 'Svendsen',
+    'Strand', 'Solberg', 'Martinsen', 'Knutsen', 'Paulsen', 'Eide', 'Bakken', 'Kristoffersen', 'Mathisen', 'Lie',
+    'Amundsen', 'Rasmussen', 'Lunde', 'Kristensen', 'Bakke', 'Moe', 'Berge', 'Nygård', 'Solheim', 'Fredriksen'
 ];
 
 export default norwegianSurnames;
