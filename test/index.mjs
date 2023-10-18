@@ -2,9 +2,9 @@ import assert from 'assert';
 import { fullName, firstName, lastName } from '../src/index.js';
 
 const countries = [
-  'ar', 'at', 'br', 'cn', 'de', 'es', 'fi', 'fr', 'gb', 'id',
-  'il', 'in', 'it', 'jp', 'ko', 'nl', 'no', 'pt', 'ru', 'sa',
-  'sv', 'th', 'tr', 'us', 'vn'
+  'ar', 'at', 'be', 'br', 'cn', 'de', 'dk', 'es', 'fi', 'fr',
+  'gb', 'id', 'il', 'in', 'it', 'jp', 'kr', 'nl', 'no', 'pt',
+  'ru', 'sa', 'sv', 'th', 'tr', 'tw', 'us', 'vn'
 ];
 
 const exceptionCountries = ['cz', 'pl'];
@@ -40,7 +40,7 @@ describe('full name generator', () => {
     assert.ok(fullName('CZ', 0).length >= 2);
     assert.ok(fullName('CZ', 1).length >= 2);
   });
-  it('generates czech multiple names', () => {
+  it('generates czech and polish multiple names', () => {
     for (let c in exceptionCountries) {
       assert.ok(fullName(exceptionCountries[c], 0).length >= 2);
       assert.ok(fullName(exceptionCountries[c], 1).length >= 2);
