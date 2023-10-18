@@ -2,7 +2,7 @@ const swedishNames = {
     0: [ // https://web.archive.org/web/20231011193136/https://www.scb.se/contentassets/d544a09578c34138a2a3a2d5aaeb9e4b/be0001_namn_topp100-2021.xlsx
         'Karl', 'Erik', 'Lars', 'Anders', 'Per', 'Mikael', 'Johan', 'Olof', 'Nils', 'Jan',
         'Gustav', 'Hans', 'Peter', 'Lennart', 'Fredrik', 'Gunnar', 'Thomas', 'Sven', 'Daniel', 'Alexander',
-        'Bengt', 'Bo', 'Oskar', 'Göran', 'Andreas', 'åke', 'Christer', 'Stefan', 'Magnus', 'Martin',
+        'Bengt', 'Bo', 'Oskar', 'Göran', 'Andreas', 'Åke', 'Christer', 'Stefan', 'Magnus', 'Martin',
         'Mohamed', 'John', 'Mattias', 'Mats', 'Henrik', 'Jonas', 'Ulf', 'Leif', 'Björn', 'Axel',
         'Christian', 'Robert', 'David', 'Viktor', 'Marcus', 'Emil', 'Niklas', 'Bertil', 'Arne', 'Patrik'
     ],
