@@ -38,6 +38,7 @@ const twoAmericanNamesThreeSurnamesFemaleFullName = fullName('US', 1, 2, 3);
 
 ## Countries
 
+- 🇦🇷 Argentina (AR)
 - 🇦🇹 Austria (AT)
 - 🇧🇷 Brazil (BR)
 - 🇨🇳 China (CN)
