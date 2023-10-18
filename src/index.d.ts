@@ -7,7 +7,7 @@ enum Gender {
 }
 
 interface FullNameGenerator {
-    firstName: (isoCode: string, gender: Gender, n: number) => string;
-    lastName: (isoCode: string) => string;
-    fullName: (isoCode: string, gender: Gender) => string;
+    firstName: (isoCode: string, gender: Gender, n?: number) => string;
+    lastName: (isoCode: string, gender?: Gender, n?: number) => string;
+    fullName: (isoCode: string, gender: Gender, firstN?: number, lastN?: number, space?: string) => string;
 }
