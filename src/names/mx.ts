@@ -1,17 +1,17 @@
 const mexicanNames = {
-    0: [ // https://datos.cdmx.gob.mx/dataset/nombres-registrados-en-actas-del-registro-civil/resource/4860083b-f893-4043-9344-bd8602db156a
-        'Hugo', 'Mateo', 'Martín', 'Lucas', 'Leo', 'Daniel', 'Alejandro', 'Manuel', 'Pablo', 'Álvaro',
-        'Adrián', 'Enzo', 'Mario', 'Diego', 'David', 'Oliver', 'Marcos', 'Thiago', 'Marco', 'Alex',
-        'Javier', 'Izan', 'Bruno', 'Miguel', 'Antonio', 'Gonzalo', 'Liam', 'Gael', 'Marc', 'Carlos',
-        'Juan', 'Angel', 'Dylan', 'Nicolás', 'Jose', 'Sergio', 'Gabriel', 'Luca', 'Jorge', 'Dario',
-        'Iker', 'Samuel', 'Eric', 'Adam', 'Hector', 'Francisco', 'Rodrigo', 'Jesus', 'Erik','Amir'
+    0: [ // https://web.archive.org/web/20231020063103/https://cuentame.inegi.org.mx/poblacion/natalidad.aspx?tema=P
+        'Santiago', 'Mateo', 'Sebastian', 'Leonardo', 'Matias', 'Emiliano', 'Daniel', 'Gael', 'Diego', 'Alexander',
+        'Alejandro', 'Jesus', 'Angel', 'David', 'Tadeo', 'Fernando', 'Rodrigo', 'Gabriel', 'Eduardo', 'Emmanuel',
+        'Dylan', 'Rafael', 'Samuel', 'Nicolas', 'Isaac', 'Leonel', 'Elias', 'Damian', 'Liam', 'Axel',
+        'Emilio', 'Ricardo', 'Adrian', 'Jonathan', 'Carlos', 'Antonio', 'Francisco', 'Javier', 'Alexis', 'Alan',
+        'Miguel', 'Cristian', 'Mauricio', 'Julian', 'Juan', 'Aaron', 'Josue', 'Pedro', 'Andres', 'Manuel'
     ],
-    1: [ // https://datos.cdmx.gob.mx/dataset/nombres-registrados-en-actas-del-registro-civil/resource/4860083b-f893-4043-9344-bd8602db156a
-        'Lucía', 'Sofia', 'Martina', 'María', 'Julia', 'Paula', 'Valeria', 'Emma', 'Daniela', 'Carla',
-        'Alba', 'Noa', 'Alma', 'Sara', 'Carmen', 'Vega', 'Lara', 'Mia', 'Valentina', 'Olivia',
-        'Claudia', 'Jimena', 'Lola', 'Chloe', 'Aitana', 'Abril', 'Ana', 'Laia', 'Triana', 'Alejandra',
-        'Elena', 'Vera', 'Manuela', 'Adriana', 'Ines', 'Marta', 'Carlota', 'Irene', 'Victoria', 'Blanca',
-        'Marina', 'Laura', 'Rocío', 'Alicia', 'Clara', 'Nora', 'Lia', 'Ariadna','Zoe','Amira'
+    1: [ // https://web.archive.org/web/20231020063103/https://cuentame.inegi.org.mx/poblacion/natalidad.aspx?tema=P
+        'Sofía', 'Valentina', 'Regina', 'Camila', 'Valeria', 'Ximena', 'Victoria', 'Renata', 'Romina', 'Isabella',
+        'Natalia', 'Daniela', 'Alexa', 'Fernanda', 'Samantha', 'Andrea', 'Aitana', 'Emily', 'Melissa', 'Guadalupe',
+        'Elizabeth', 'Mariana', 'Yamileth', 'Alejandra', 'Fatima', 'Abigail', 'Julieta', 'Evelyn', 'Esmeralda', 'Luciana',
+        'Lucia', 'Estefania', 'Jimena', 'Vanessa', 'Ivanna', 'Dayana', 'Kimberly', 'Angela', 'Samara', 'Carolina',
+        'Emma', 'Miranda', 'Ariana', 'Alondra', 'Aranza', 'Paulina', 'Genesis', 'Aylin', 'Elisa', 'Sara'
     ]
 };
 

@@ -3,8 +3,8 @@ import { fullName, firstName, lastName } from '../src/index.js';
 
 const countries = [
   'ar', 'at', 'be', 'br', 'cn', 'de', 'dk', 'es', 'fi', 'fr',
-  'gb', 'id', 'il', 'in', 'it', 'jp', 'kr', 'nl', 'no', 'pt',
-  'ru', 'sa', 'sv', 'th', 'tr', 'tw', 'us', 'vn'
+  'gb', 'gr', 'id', 'il', 'in', 'it', 'jp', 'kr', 'mx', 'nl',
+  'no', 'pt', 'ru', 'sa', 'sv', 'th', 'tr', 'tw', 'us', 'vn'
 ];
 
 const exceptionCountries = ['cz', 'pl'];

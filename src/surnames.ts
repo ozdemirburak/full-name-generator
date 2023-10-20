@@ -10,12 +10,14 @@ import es from './surnames/es';
 import fi from './surnames/fi';
 import fr from './surnames/fr';
 import gb from './surnames/gb';
+import gr from './surnames/gr';
 import id from './surnames/id';
 import il from './surnames/il';
 import _in from './surnames/in';
 import it from './surnames/it';
 import jp from './surnames/jp';
 import kr from './surnames/kr';
+import mx from './surnames/mx';
 import nl from './surnames/nl';
 import no from './surnames/no';
 import pl from './surnames/pl';
@@ -31,6 +33,6 @@ import vn from './surnames/vn';
 
 export const surnames: Surnames = {
     ar, at, be, br, cn, cz, de, dk, es, fi, fr,
-    gb, id, il, in: _in, it, jp, kr, nl, no, pl,
-    pt, ru, sa, sv, th, tr, tw, us, vn
+    gb, gr, id, il, in: _in, it, jp, kr, mx, nl,
+    no, pl, pt, ru, sa, sv, th, tr, tw, us, vn
 };

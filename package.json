@@ -1,7 +1,7 @@
 {
   "name": "full-name-generator",
-  "version": "0.1.2",
-  "description": "Generate random names effortlessly using various data sources of popular first names and surnames from multiple countries.",
+  "version": "0.1.3",
+  "description": "Generate random names using data from popular names and surnames of various countries.",
   "keywords": [
     "random",
     "name",
