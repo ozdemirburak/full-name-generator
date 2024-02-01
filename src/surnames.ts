@@ -24,7 +24,7 @@ import pl from './surnames/pl';
 import pt from './surnames/pt';
 import ru from './surnames/ru';
 import sa from './surnames/sa';
-import sv from './surnames/sv';
+import se from './surnames/se';
 import th from './surnames/th';
 import tr from './surnames/tr';
 import tw from './surnames/tw';
@@ -32,7 +32,8 @@ import us from './surnames/us';
 import vn from './surnames/vn';
 
 export const surnames: Surnames = {
-    ar, at, be, br, cn, cz, de, dk, es, fi, fr,
-    gb, gr, id, il, in: _in, it, jp, kr, mx, nl,
-    no, pl, pt, ru, sa, sv, th, tr, tw, us, vn
+    ar, at, be, br, cn, cz, de, dk, es, fi,
+    fr, gb, gr, id, il, in: _in, it, jp, kr, mx,
+    nl, no, pl, pt, ru, sa, se, th, tr, tw,
+    us, vn
 };

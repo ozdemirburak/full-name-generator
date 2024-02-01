@@ -63,7 +63,7 @@ const twoAmericanNamesThreeSurnamesFemaleFullName = fullName('US', 1, 2, 3);
 - 🇸🇦 Saudi Arabia (SA)
 - 🇰🇷 South Korea (KR)
 - 🇪🇸 Spain (ES)
-- 🇸🇪 Sweden (SV)
+- 🇸🇪 Sweden (SE)
 - 🇹🇼 Taiwan (TW)
 - 🇹🇭 Thailand (TH)
 - 🇹🇷 Türkiye (TR)

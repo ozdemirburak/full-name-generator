@@ -4,7 +4,7 @@ import { fullName, firstName, lastName } from '../src/index.js';
 const countries = [
   'ar', 'at', 'be', 'br', 'cn', 'de', 'dk', 'es', 'fi', 'fr',
   'gb', 'gr', 'id', 'il', 'in', 'it', 'jp', 'kr', 'mx', 'nl',
-  'no', 'pt', 'ru', 'sa', 'sv', 'th', 'tr', 'tw', 'us', 'vn'
+  'no', 'pt', 'ru', 'sa', 'se', 'th', 'tr', 'tw', 'us', 'vn'
 ];
 
 const exceptionCountries = ['cz', 'pl'];

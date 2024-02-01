@@ -24,7 +24,7 @@ import pl from './names/pl';
 import pt from './names/pt';
 import ru from './names/ru';
 import sa from './names/sa';
-import sv from './names/sv';
+import se from './names/se';
 import th from './names/th';
 import tr from './names/tr';
 import tw from './names/tw';
@@ -32,7 +32,8 @@ import us from './names/us';
 import vn from './names/vn';
 
 export const names: Names = {
-    ar, at, be, br, cn, cz, de, dk, es, fi, fr,
-    gb, gr, id, il, in: _in, it, jp, kr, mx, nl,
-    no, pl, pt, ru, sa, sv, th, tr, tw, us, vn
+    ar, at, be, br, cn, cz, de, dk, es, fi,
+    fr, gb, gr, id, il, in: _in, it, jp, kr, mx,
+    nl, no, pl, pt, ru, sa, se, th, tr, tw,
+    us, vn
 };
