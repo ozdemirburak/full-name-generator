@@ -3,7 +3,7 @@
 [![npm-version]][npm] [![npm-downloads]][npm] [![license]][license-url]
 
 Generate random names using authentic data sourced from government statistical
-offices across 24 countries, including popular first names and surnames from 
+offices across 25 countries, including popular first names and surnames from 
 official national datasets.
 
 > **IMPORTANT**: This library's **code is MIT licensed**, but the **name data
@@ -70,6 +70,7 @@ const name = fullName('US', Gender.Male);
 - 🇮🇱 Israel (IL)
 - 🇮🇹 Italy (IT)
 - 🇱🇻 Latvia (LV)
+- 🇰🇿 Kazakhstan (KZ)
 - 🇲🇽 Mexico (MX)
 - 🇳🇿 New Zealand (NZ)
 - 🇳🇴 Norway (NO)
@@ -178,6 +179,7 @@ Below are the data sources and their respective licenses:
 - Ireland: CSO Ireland (CC BY 4.0) - <https://www.cso.ie>
 - Israel: CBS Israel - <https://www.cbs.gov.il>
 - Italy: AGID (CC BY 4.0) - <https://www.dati.gov.it>
+- Kazakhstan: ҚР СЖРА Ұлттық статистика бюросы - <https://stat.gov.kz>
 - Latvia: PMLP - <https://stat.gov.lv>
 - Mexico: SEP via Datamx.io (CC0 1.0) - <https://datamx.io>
 - New Zealand: DIA (CC BY 4.0) - <https://www.data.govt.nz>

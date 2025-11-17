@@ -14,6 +14,7 @@ import il from './names/il';
 import is from './names/is';
 import it from './names/it';
 import kr from './names/kr';
+import kz from './names/kz';
 import lv from './names/lv';
 import mx from './names/mx';
 import no from './names/no';
@@ -27,6 +28,6 @@ import us from './names/us';
 
 export const names: Names = {
     ar, be, br, cz, dk, es, fi, fr, gb, ie,
-    il, is, it, kr, lv, mx, no, nz, pl, se,
-    si, tr, tw, us
+    il, is, it, kr, kz, lv, mx, no, nz, pl,
+    se, si, tr, tw, us
 };

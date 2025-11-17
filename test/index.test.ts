@@ -4,8 +4,8 @@ import { fullName as fullNameFull, firstName as firstNameFull, lastName as lastN
 
 const countries = [
     'ar', 'be', 'br', 'dk', 'es', 'fi', 'fr', 'gb',
-    'ie', 'il', 'it', 'kr', 'mx', 'no', 'nz', 'se',
-    'si', 'tr', 'tw', 'us'
+    'ie', 'il', 'it', 'kr', 'kz', 'mx', 'no', 'nz',
+    'se', 'si', 'tr', 'tw', 'us'
 ];
 
 const genderSpecificSurnameCountries = ['cz', 'is', 'lv', 'pl'];

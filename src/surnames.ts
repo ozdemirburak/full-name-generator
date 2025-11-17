@@ -14,6 +14,7 @@ import il from './surnames/il';
 import is from './surnames/is';
 import it from './surnames/it';
 import kr from './surnames/kr';
+import kz from './surnames/kz';
 import lv from './surnames/lv';
 import mx from './surnames/mx';
 import nz from './surnames/nz';
@@ -27,6 +28,6 @@ import us from './surnames/us';
 
 export const surnames: Surnames = {
     ar, be, br, cz, dk, es, fi, fr, gb, ie,
-    il, is, it, kr, lv, mx, no, nz, pl, se,
-    si, tr, tw, us
+    il, is, it, kr, kz, lv, mx, no, nz, pl,
+    se, si, tr, tw, us
 };
