@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+node_modules
+dist
+*.tgz
+.claude
+src/names-lite
+src/surnames-lite
+src/names-lite.ts
+src/surnames-lite.ts
+CLAUDE.md
+__pycache__/
+.playwright-mcp

@@ -1,0 +1,31 @@
+{
+  "source": "Social Security Administration (SSA), Change in Name Popularity from 2024 to 2025",
+  "url": "https://www.ssa.gov/oact/babynames/rankchange.html",
+  "year": 2025,
+  "retrieved": "2026-10-28",
+  "sourceTables": {
+    "increase": "https://www.ssa.gov/oact/babynames/popularity_increase.html",
+    "decrease": "https://www.ssa.gov/oact/babynames/popularity_decrease.html",
+    "same": "https://www.ssa.gov/oact/babynames/popularity_same.html"
+  },
+  "snapshot": "snapshots/us-ssa-2025-ranks.csv",
+  "sha256": "ddda7e30c1f25e56e5d4426ec0a33d989e5d9efca33f27874a0864fe07ed5c7f",
+  "snapshotMethod": "Extract the name, 2025 rank and 2024 rank from each gender section of the three official SSA HTML tables. Keep 2025 ranks 1 through 1000, record the originating table, and sort boys then girls by ascending rank. The union contains exactly one name for every rank 1 through 1000 for each gender. This normalized CSV is a source transcription, not the unavailable national ZIP download.",
+  "license": "CC0 1.0",
+  "selection": "Use exactly the 2025 published ranks 1–1000 for each recorded sex, in ascending rank order. Generation is uniform.",
+  "countPerGender": 1000,
+  "licenseChecked": "2026-10-28",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseScope": "The official Data.gov catalogue record for this federal agency dataset explicitly declares CC0 1.0. The source consists of aggregate name statistics, not person-level records.",
+  "attribution": "Source: Social Security Administration, 2025 birth-name ranks. Selected and formatted by this library; no agency endorsement is implied.",
+  "rights": {
+    "basis": "CC0-1.0",
+    "attributionRequired": false,
+    "url": "https://catalog.data.gov/harvest_record/3521de98-1347-4fbc-9d39-1f7838cf7764/raw",
+    "snapshot": "rights/us-ssa-license.json",
+    "sha256": "b27a56a08c50c28c0dae898415c63fe22b1bcea6d06bad66200af4cd9f0ae08a",
+    "format": "data-gov",
+    "identifier": "US-GOV-SSA-338"
+  },
+  "licenseEvidenceUrl": "https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-data"
+}

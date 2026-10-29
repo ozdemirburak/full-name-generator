@@ -1,0 +1,59 @@
+{
+  "source": "Independent name selection derived from Statistics Sweden Statistical Database API, newborn first names normally used in 2022",
+  "url": "https://api.scb.se/OV0104/v1/doris/en/ssd/BE/BE0001/BE0001D/BE0001Nyfodda",
+  "referenceDate": "2022",
+  "minimumCount": 2,
+  "originalFiles": [
+    {
+      "filename": "se-birth-meta.json",
+      "url": "https://api.scb.se/OV0104/v1/doris/en/ssd/BE/BE0001/BE0001D/BE0001Nyfodda",
+      "sha256": "7b5dc40b6d752ccbee02b6ab36d9f5fa1b455a336d8cd6a3e054fd5aeacd8fc2",
+      "method": "GET"
+    },
+    {
+      "filename": "se-birth-2022.json",
+      "url": "https://api.scb.se/OV0104/v1/doris/en/ssd/BE/BE0001/BE0001D/BE0001Nyfodda",
+      "sha256": "507b9f99986f100627fd44ca15eb61726cdd43cead8a2012b4f302ffa8a88681",
+      "method": "POST",
+      "query": {
+        "Tilltalsnamn": "all values from metadata",
+        "Kon": [
+          "2",
+          "1"
+        ],
+        "ContentsCode": [
+          "000004F5"
+        ],
+        "Tid": [
+          "2022"
+        ]
+      },
+      "responseFormat": "json-stat2"
+    }
+  ],
+  "selection": "First 1,000 names per explicit API sex (1 boys, 2 girls), descending published 2022 count then UTF-8 spelling. Include only published integer counts of at least two; exclude suppressed cells. Each spelling remains separate. Uses the first name normally used, not every given name.",
+  "display": "Trim outer whitespace and normalize NFC; preserve published spelling, capitalization and diacritics.",
+  "retrieved": "2026-10-28",
+  "snapshot": "snapshots/se-scb-2022-names.tsv",
+  "sha256": "46b78bc2f4e06e44ef54dc519c4eb8ddc47902169a089b5eda7a18561141f3a8",
+  "counts": {
+    "0": 1000,
+    "1": 1000
+  },
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseChecked": "2026-10-28",
+  "rights": {
+    "basis": "CC0-1.0",
+    "attributionRequired": false,
+    "url": "https://www.scb.se/en/services/open-data-api/",
+    "snapshot": "rights/se-scb-api-terms.json",
+    "sha256": "5f1b8facf60d952f3e816d7fd632ab3dea731a2afabf8735d1525d6f94b77f34",
+    "format": "scb-api-terms",
+    "identifier": "SCB-owned-Statistical-Database-API"
+  },
+  "licenseEvidenceUrl": "https://www.scb.se/en/services/open-data-api/",
+  "nameFilter": "At least two characters, starts with a Unicode letter, ends with a Unicode letter or mark; only letters, combining marks, spaces, apostrophes (straight or U+2019) and hyphens. Whitespace-trimmed NFC spellings are aggregated if identical.",
+  "licenseScope": "SCB explicitly dedicates its Statistical Database open data to CC0 without source attribution. These exact API responses identify Statistics Sweden as their source; no other agency data is used. Ordinary SCB website tables are outside this admission.",
+  "attribution": "Original input: the Statistics Sweden API table linked in this record. This library’s processed selection is not an SCB statistical product; no agency source label or endorsement is claimed for generated names. Provenance references are optional."
+}

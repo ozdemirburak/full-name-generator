@@ -1,0 +1,34 @@
+{
+  "source": "Comune di Bergamo, Comune Bergamo - Graduatoria dei nomi, 2025 resident data on the Regione Lombardia portal",
+  "url": "https://www.dati.lombardia.it/d/s29g-dr7j",
+  "retrieved": "2026-10-29",
+  "referenceYear": "2025",
+  "geographicScope": "Residents of Bergamo municipality, including Italian and foreign citizenship; not a national Italian frequency sample.",
+  "snapshot": "snapshots/it-bergamo-2025-names.json",
+  "sha256": "1fdecc4b276e0144ccf6b261774591b48be4e5543bbb49b2a5ae73b48b58a0cb",
+  "requestUrl": "https://www.dati.lombardia.it/resource/s29g-dr7j.json?%24where=anno%3D2025&%24limit=50000&%24order=genere%2Ccittadinanza%2Cnome",
+  "sourceRowCount": 400,
+  "counts": {
+    "0": 192,
+    "1": 179
+  },
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseChecked": "2026-10-29",
+  "licenseEvidenceUrl": "https://www.dati.lombardia.it/api/views/s29g-dr7j.json",
+  "licenseScope": "This exact official dataset metadata declares CC0_10 and links the CC0 legal text. The dataset owner and table author are Comune di Bergamo. The attribution metadata field identifies provenance, not an additional attribution condition. No portal-wide or third-party licence inference is used.",
+  "attribution": "Comune di Bergamo via Open Data Regione Lombardia, 2025. Independently selected and formatted by this library.",
+  "selection": "All published top-100 given-name rows for each explicit sex and citizenship category in 2025. Map Maschi to male and Femmine to female. Retain every distinct given-name string after combining the disjoint Italiani and Stranieri citizenship categories within each recorded sex. Order by descending sum of published counts, then UTF-8 spelling. Missing counterparts in truncated/suppressed categories are unknown; sums can be lower bounds, not complete city population frequencies. Do not combine different years. Generation is uniform.",
+  "display": "Normalize NFC and trim outer whitespace. Display each letter sequence with its first source letter followed by lowercase letters; retain separators and source apostrophes (including trailing apostrophes used in some spellings) without inventing accents or internal capitalization.",
+  "rights": {
+    "basis": "CC0-1.0",
+    "attributionRequired": false,
+    "url": "https://www.dati.lombardia.it/api/views/s29g-dr7j.json",
+    "snapshot": "rights/it-bergamo-names-license.json",
+    "sha256": "bf4a66e1b79b2ff14bcb1e92826c65bf36ebba6d598fa4c414a0733d0b42cbf7",
+    "format": "socrata-cc0",
+    "identifier": "s29g-dr7j",
+    "ownerId": "3sn6-kutt",
+    "publisher": "Comune di Bergamo"
+  }
+}

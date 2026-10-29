@@ -1,0 +1,91 @@
+{
+  "name": "full-name-generator",
+  "version": "2.0.0",
+  "description": "Generate random first names, surnames and full names from official CC0 name datasets.",
+  "keywords": [
+    "random",
+    "name",
+    "names",
+    "surname",
+    "first name",
+    "last name",
+    "full name",
+    "name generator",
+    "faker"
+  ],
+  "homepage": "https://fullnamegenerator.com",
+  "author": "Burak Özdemir <ozdemirburak@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozdemirburak/full-name-generator/issues"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "typesVersions": {
+    "*": {
+      "full": [
+        "./dist/index.full.d.cts"
+      ]
+    }
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./full": {
+      "import": {
+        "types": "./dist/index.full.d.mts",
+        "default": "./dist/index.full.mjs"
+      },
+      "require": {
+        "types": "./dist/index.full.d.cts",
+        "default": "./dist/index.full.js"
+      }
+    }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozdemirburak/full-name-generator.git"
+  },
+  "scripts": {
+    "build": "npm run verify:data && npm run typecheck && vite build",
+    "generate": "node --import=tsx scripts/generate-lite-data.ts",
+    "test": "npm run build && node --import tsx --test test/*.test.ts",
+    "test:package": "node scripts/verify-package.mjs",
+    "prepack": "npm run build",
+    "typecheck": "npm run generate && tsc --noEmit",
+    "lint": "oxlint --deny-warnings src scripts test vite.config.mts",
+    "check": "npm run lint && npm test && npm run test:package",
+    "release": "npm run check && npm publish",
+    "verify:data": "node scripts/verify-data.mjs"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.60.0",
+    "oxlint": "^1.90.0",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "unplugin-dts": "^1.1.2",
+    "vite": "^8.3.5"
+  },
+  "sideEffects": false,
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24.x",
+      "onFail": "error"
+    }
+  }
+}

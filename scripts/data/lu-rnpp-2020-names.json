@@ -1,0 +1,35 @@
+{
+  "source": "Luxembourg CTIE, 2020 RNPP most-used given names",
+  "url": "https://data.public.lu/en/datasets/prenoms-les-plus-donnes-au-luxembourg/",
+  "retrieved": "2026-10-29",
+  "referenceYear": "2020",
+  "geographicScope": "Published 2020 RNPP list for Luxembourg; no narrower age or demographic coverage claimed. Surnames in this library use a separate GND authority sample.",
+  "snapshot": "snapshots/lu-rnpp-2020-names.csv",
+  "sha256": "156c2ea8d93a40e8b804f867dc097c3ceaadbf5f9a5fce80faa42da764d0eac5",
+  "requestUrl": "https://download.data.public.lu/resources/prenoms-les-plus-donnes-au-luxembourg/20201014-124908/rnrpp-prenoms-les-plus-utilises-2020.csv",
+  "sourceSha1": "b4c7f527227de638d6a9757df30f04e059c8462e",
+  "encoding": "windows-1252",
+  "sourceRowCount": 103,
+  "counts": {
+    "0": 49,
+    "1": 54
+  },
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseChecked": "2026-10-29",
+  "licenseScope": "This exact official dataset declares cc-zero and is published by the certified government CTIE organization. The resource checksum in the publisher metadata matches the downloaded CSV.",
+  "attribution": "CTIE, Registre national des personnes physiques (RNPP), 2020. Independently selected by this library.",
+  "selection": "Retain every published given-name string, with explicit M/F mapped to male/female. Preserve the publisher CSV order within each sex, described as descending popularity. No frequencies are provided; do not apply the GND five-record threshold to this list. Generation is uniform.",
+  "display": "Decode Windows-1252 and normalize NFC. Preserve source spelling, case and accents.",
+  "rights": {
+    "basis": "CC0-1.0",
+    "attributionRequired": false,
+    "url": "https://data.public.lu/api/1/datasets/5f8601797a447238025d4fa4/",
+    "snapshot": "rights/lu-rnpp-license.json",
+    "sha256": "abefa49fd8987f4307fe09dfe4e9dfa950afbd8fb1cc82e4f438f904698e53ef",
+    "format": "udata-cc0",
+    "identifier": "5f8601797a447238025d4fa4",
+    "organization": "57067d81a30b1b33a2f65976",
+    "publisher": "Centre des technologies de l'information de l'Etat"
+  }
+}

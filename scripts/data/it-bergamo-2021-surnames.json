@@ -1,0 +1,33 @@
+{
+  "source": "Comune di Bergamo, Comune Bergamo - Serie storica cognomi più diffusi, 2021 resident data on the Regione Lombardia portal",
+  "url": "https://www.dati.lombardia.it/d/4pqu-7zkd",
+  "retrieved": "2026-10-29",
+  "referenceYear": "2021",
+  "geographicScope": "Residents of Bergamo municipality, including Italian and foreign citizenship; not a national Italian frequency sample.",
+  "snapshot": "snapshots/it-bergamo-2021-surnames.json",
+  "sha256": "ef5aba340714a285d7ef0d6d879bec2313ac03e7f793d9a3482a77efc8c2bda2",
+  "requestUrl": "https://www.dati.lombardia.it/resource/4pqu-7zkd.json?%24where=anno%3D2021&%24limit=50000&%24order=cittadinanza%2Ccognome",
+  "sourceRowCount": 1750,
+  "counts": {
+    "*": 1732
+  },
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseChecked": "2026-10-29",
+  "licenseEvidenceUrl": "https://www.dati.lombardia.it/api/views/4pqu-7zkd.json",
+  "licenseScope": "This exact official dataset metadata declares CC0_10 and links the CC0 legal text. The dataset owner and table author are Comune di Bergamo. The attribution metadata field identifies provenance, not an additional attribution condition. No portal-wide or third-party licence inference is used.",
+  "attribution": "Comune di Bergamo via Open Data Regione Lombardia, 2021. Independently selected and formatted by this library.",
+  "selection": "All published 2021 surname rows, whose frequency is greater than ten within each citizenship category. Combine the disjoint Italiani and Stranieri categories and retain every distinct surname string in one shared list. Order by descending sum of published counts, then UTF-8 spelling. Missing counterparts in truncated/suppressed categories are unknown; sums can be lower bounds, not complete city population frequencies. Do not combine different years. Generation is uniform.",
+  "display": "Normalize NFC and trim outer whitespace. Display each letter sequence with its first source letter followed by lowercase letters; retain separators and source apostrophes (including trailing apostrophes used in some spellings) without inventing accents or internal capitalization.",
+  "rights": {
+    "basis": "CC0-1.0",
+    "attributionRequired": false,
+    "url": "https://www.dati.lombardia.it/api/views/4pqu-7zkd.json",
+    "snapshot": "rights/it-bergamo-surnames-license.json",
+    "sha256": "69b60caafe9073f4c3b1b7c3c68c152dac4910f627819d08520fd881df7a53cd",
+    "format": "socrata-cc0",
+    "identifier": "4pqu-7zkd",
+    "ownerId": "3sn6-kutt",
+    "publisher": "Comune di Bergamo"
+  }
+}

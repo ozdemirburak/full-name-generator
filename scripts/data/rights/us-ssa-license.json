@@ -1,0 +1,101 @@
+{
+  "@type": "Dataset",
+  "accessLevel": "public",
+  "accessRights": "public",
+  "accrualPeriodicity": "annual",
+  "bureauCode": [
+    "016:00"
+  ],
+  "dataQuality": null,
+  "describedBy": {
+    "accessURL": "https://www.ssa.gov/oact/babynames/background.html"
+  },
+  "description": "The data (name, year of birth, sex, and number) are from a 100 percent sample of Social Security card applications for 1880 on.",
+  "distribution": [
+    {
+      "@type": "Distribution",
+      "accessURL": "https://www.ssa.gov/oact/babynames/index.html",
+      "description": null,
+      "format": "HTML",
+      "mediaType": "text/html",
+      "title": null
+    },
+    {
+      "@type": "Distribution",
+      "description": null,
+      "downloadURL": "https://www.ssa.gov/oact/babynames/names.zip",
+      "format": "ZIP",
+      "mediaType": "application/zip",
+      "title": null
+    }
+  ],
+  "identifier": "US-GOV-SSA-338",
+  "inventoried": "2021-06-04",
+  "issued": null,
+  "keyword": [
+    "1998",
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "Baby Names",
+    "Social Security Administration (SSA)"
+  ],
+  "landingPage": {
+    "accessURL": "https://www.ssa.gov/oact/babynames/index.html",
+    "title": "Baby Names from Social Security Card Applications - National Data landing page"
+  },
+  "language": [
+    "en"
+  ],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "modified": "2026-05-08",
+  "primaryITInvestmentUII": null,
+  "programCode": [
+    "016:000"
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Social Security Administration"
+  },
+  "references": null,
+  "rights": null,
+  "spatial": [
+    {
+      "@type": "Location",
+      "prefLabel": "United States"
+    }
+  ],
+  "systemOfRecords": null,
+  "temporal": [
+    {
+      "@type": "PeriodOfTime",
+      "endDate": "2025-12-31",
+      "startDate": "1880-01-01"
+    }
+  ],
+  "theme": null,
+  "title": "Baby Names from Social Security Card Applications - National Data"
+}

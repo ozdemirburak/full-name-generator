@@ -1,0 +1,19 @@
+{
+  "url": "https://sparql.dnb.de/gnd",
+  "publisher": "Deutsche Nationalbibliothek",
+  "scope": "GND authority metadata served by the official DNB SPARQL endpoint",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "excerpt": "All DNB metadata released as open data under CC0 1.0 license",
+  "originalHtmlSha256": "e33374261702cf5244ab56e467ad8d75eac8511a867ee43503a69b98f5c923ea",
+  "reviewed": "2026-10-29",
+  "documentationUrl": "https://www.dnb.de/EN/Professionell/Metadatendienste/Datenbezug/LDS/sparql.html",
+  "countryCodeGuideUrl": "https://wiki.dnb.de/download/attachments/90411323/Laendercodeleitfaden.pdf",
+  "countryCodeGuideSha256": "838e6fd868339ca7d6e20291cdb351fef4d49f557a05e6e1ddd55cd0ebc4365f",
+  "countryMeaning": "Main country of life or activity, with historical and political associations. Not nationality, ethnicity or name language.",
+  "review": "The dedication covers the structured authority metadata extracted here, not works described by those records. No individual records, identifiers or biographies are redistributed. CC0 does not warrant accuracy or clear third-party rights.",
+  "documentationHtmlSha256": "bfdb7582d22382eeba6000c7047086cb8473d5ae9989232617d6d11699f7addb",
+  "excludedScope": "No GND cross-concordance datasets or external-thesaurus mappings are included. Some such datasets use CC BY 4.0; this admission covers only the structured GND authority metadata queried here.",
+  "businessModelUrl": "https://www.dnb.de/DE/Professionell/Metadatendienste/Datenbezug/geschaeftsmodell.html",
+  "businessModelHtmlSha256": "89d917b8223ef0697ef0cb6263cbf72277c750b04004b1073eaf46a1860f8cb3"
+}

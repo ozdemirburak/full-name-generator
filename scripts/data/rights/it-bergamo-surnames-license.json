@@ -1,0 +1,391 @@
+{
+  "id" : "4pqu-7zkd",
+  "name" : "Comune Bergamo - Serie storica cognomi più diffusi",
+  "assetType" : "dataset",
+  "averageRating" : 0,
+  "category" : "Statistica",
+  "createdAt" : 1436525680,
+  "description" : "Serie storica dal 1987 dei cognomi più diffusi (numerosità superiore a 10 occorrenze) tra i residenti del Comune di Bergamo suddivisi per cittadinanza.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 2743,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1529932065,
+  "licenseId" : "CC0_10",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 168654,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1492611315,
+  "publicationGroup" : 22087,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1677252752,
+  "rowsUpdatedBy" : "3sn6-kutt",
+  "tableId" : 105975,
+  "totalTimesRated" : 0,
+  "viewCount" : 4704,
+  "viewLastModified" : 1677252753,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1492611315,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 319723,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1492611315,
+    "targetAudience" : "public",
+    "workflowId" : 186,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "3sn6-kutt",
+      "displayName" : "Comune di Bergamo"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 1906586,
+    "name" : "Anno",
+    "dataTypeName" : "number",
+    "fieldName" : "anno",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 229444,
+    "width" : 77,
+    "cachedContents" : {
+      "largest" : "2021",
+      "non_null" : "65565",
+      "average" : "2001.818229854690",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2020",
+        "count" : "3516"
+      }, {
+        "item" : "1987",
+        "count" : "1903"
+      }, {
+        "item" : "1988",
+        "count" : "1896"
+      }, {
+        "item" : "1989",
+        "count" : "1893"
+      }, {
+        "item" : "1990",
+        "count" : "1889"
+      }, {
+        "item" : "1991",
+        "count" : "1884"
+      }, {
+        "item" : "1994",
+        "count" : "1871"
+      }, {
+        "item" : "1992",
+        "count" : "1866"
+      }, {
+        "item" : "1995",
+        "count" : "1866"
+      }, {
+        "item" : "1993",
+        "count" : "1861"
+      }, {
+        "item" : "1996",
+        "count" : "1860"
+      }, {
+        "item" : "1998",
+        "count" : "1860"
+      }, {
+        "item" : "1997",
+        "count" : "1855"
+      }, {
+        "item" : "1999",
+        "count" : "1835"
+      }, {
+        "item" : "2001",
+        "count" : "1831"
+      }, {
+        "item" : "2004",
+        "count" : "1828"
+      }, {
+        "item" : "2011",
+        "count" : "1823"
+      }, {
+        "item" : "2000",
+        "count" : "1821"
+      }, {
+        "item" : "2010",
+        "count" : "1813"
+      }, {
+        "item" : "2005",
+        "count" : "1809"
+      } ],
+      "smallest" : "1987",
+      "not_null" : "58543",
+      "count" : "65565",
+      "sum" : "113653230",
+      "cardinality" : "35"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 1906587,
+    "name" : "Cittadinanza",
+    "dataTypeName" : "text",
+    "fieldName" : "cittadinanza",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 229445,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "Stranieri",
+      "non_null" : "65565",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Italiani",
+        "count" : "63426"
+      }, {
+        "item" : "Stranieri",
+        "count" : "2139"
+      } ],
+      "smallest" : "Italiani",
+      "not_null" : "58543",
+      "count" : "65565",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 1906588,
+    "name" : "Cognome",
+    "dataTypeName" : "text",
+    "fieldName" : "cognome",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 229446,
+    "width" : 230,
+    "cachedContents" : {
+      "largest" : "ZUCCHINALI",
+      "non_null" : "65565",
+      "null" : "0",
+      "top" : [ {
+        "item" : "MARTINI",
+        "count" : "52"
+      }, {
+        "item" : "DIOP",
+        "count" : "41"
+      }, {
+        "item" : "NDIAYE",
+        "count" : "37"
+      }, {
+        "item" : "ROTTIGNI",
+        "count" : "36"
+      }, {
+        "item" : "ROBERTI",
+        "count" : "36"
+      }, {
+        "item" : "PEROLARI",
+        "count" : "36"
+      }, {
+        "item" : "SCUDELETTI",
+        "count" : "36"
+      }, {
+        "item" : "ANGELI",
+        "count" : "36"
+      }, {
+        "item" : "SPAGNOLO",
+        "count" : "36"
+      }, {
+        "item" : "MORE'",
+        "count" : "36"
+      }, {
+        "item" : "CARBONI",
+        "count" : "36"
+      }, {
+        "item" : "CONCA",
+        "count" : "36"
+      }, {
+        "item" : "MADASCHI",
+        "count" : "36"
+      }, {
+        "item" : "FINAZZI",
+        "count" : "36"
+      }, {
+        "item" : "VANONCINI",
+        "count" : "36"
+      }, {
+        "item" : "PASSONI",
+        "count" : "36"
+      }, {
+        "item" : "FILISETTI",
+        "count" : "36"
+      }, {
+        "item" : "ZINI",
+        "count" : "36"
+      }, {
+        "item" : "MOTTA",
+        "count" : "36"
+      }, {
+        "item" : "PARIS",
+        "count" : "36"
+      } ],
+      "smallest" : "ABATI",
+      "not_null" : "58543",
+      "count" : "65565",
+      "cardinality" : "2690"
+    },
+    "format" : { }
+  }, {
+    "id" : 1906589,
+    "name" : "Frequenza",
+    "dataTypeName" : "number",
+    "fieldName" : "frequenza",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 229447,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "1189",
+      "non_null" : "65565",
+      "average" : "38.71903126376046",
+      "null" : "0",
+      "top" : [ {
+        "item" : "11",
+        "count" : "6002"
+      }, {
+        "item" : "12",
+        "count" : "4865"
+      }, {
+        "item" : "13",
+        "count" : "4236"
+      }, {
+        "item" : "14",
+        "count" : "3675"
+      }, {
+        "item" : "15",
+        "count" : "3328"
+      }, {
+        "item" : "16",
+        "count" : "2943"
+      }, {
+        "item" : "17",
+        "count" : "2494"
+      }, {
+        "item" : "18",
+        "count" : "2168"
+      }, {
+        "item" : "19",
+        "count" : "1897"
+      }, {
+        "item" : "20",
+        "count" : "1649"
+      }, {
+        "item" : "21",
+        "count" : "1539"
+      }, {
+        "item" : "22",
+        "count" : "1407"
+      }, {
+        "item" : "23",
+        "count" : "1405"
+      }, {
+        "item" : "24",
+        "count" : "1148"
+      }, {
+        "item" : "25",
+        "count" : "1111"
+      }, {
+        "item" : "26",
+        "count" : "1004"
+      }, {
+        "item" : "28",
+        "count" : "932"
+      }, {
+        "item" : "27",
+        "count" : "915"
+      }, {
+        "item" : "29",
+        "count" : "821"
+      }, {
+        "item" : "30",
+        "count" : "759"
+      } ],
+      "smallest" : "11",
+      "not_null" : "58543",
+      "count" : "65565",
+      "sum" : "2198273",
+      "cardinality" : "543"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  } ],
+  "disabledFeatureFlags" : [ "allow_comments" ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Creative Commons 1.0 Universal (Public Domain Dedication)",
+    "logoUrl" : "images/licenses/ccZero.png",
+    "termsLink" : "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+  },
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "MetaDati_ComuneBergamo_SerieStoricaCognomiDiffusi.pdf",
+      "name" : "MetaDati_ComuneBergamo_SerieStoricaCognomiDiffusi.pdf"
+    } ],
+    "custom_fields" : {
+      "Frequenza di aggiornamento" : {
+        "Data ultima modifica" : "24/2/2023",
+        "Frequenza" : "Annuale"
+      },
+      "Microsite" : {
+        "Microsite" : "Comune di Bergamo"
+      }
+    },
+    "rowIdentifier" : "0"
+  },
+  "owner" : {
+    "id" : "3sn6-kutt",
+    "displayName" : "Comune di Bergamo",
+    "profileImageUrlLarge" : "/api/users/3sn6-kutt/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/3sn6-kutt/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/3sn6-kutt/profile_images/TINY",
+    "screenName" : "Comune di Bergamo",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "3sn6-kutt",
+    "displayName" : "Comune di Bergamo",
+    "profileImageUrlLarge" : "/api/users/3sn6-kutt/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/3sn6-kutt/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/3sn6-kutt/profile_images/TINY",
+    "screenName" : "Comune di Bergamo",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "tags" : [ "comune bergamo", "cognomi", "residenti" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

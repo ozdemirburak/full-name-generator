@@ -1,0 +1,43 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": [
+    "typescript",
+    "unicorn",
+    "oxc",
+    "import"
+  ],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "error"
+  },
+  "rules": {
+    "eslint/no-unused-vars": "error",
+    "eslint/no-debugger": "error",
+    "eslint/eqeqeq": "error",
+    "typescript/no-explicit-any": "error",
+    "unicorn/no-array-sort": "off"
+  },
+  "env": {
+    "node": true,
+    "es2020": true
+  },
+  "overrides": [
+    {
+      "files": [
+        "test/**/*.ts"
+      ],
+      "rules": {
+        "typescript/no-explicit-any": "off",
+        "unicorn/consistent-function-scoping": "off"
+      }
+    }
+  ],
+  "ignorePatterns": [
+    "dist/**",
+    "node_modules/**",
+    "src/names-lite/**",
+    "src/surnames-lite/**",
+    "src/names-lite.ts",
+    "src/surnames-lite.ts"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "dcat:Dataset",
+  "accessLevel": "public",
+  "bureauCode": [
+    "006:07"
+  ],
+  "c_dataset": [
+    "surname"
+  ],
+  "c_documentationLink": "http://www.census.gov/developer/",
+  "c_examplesLink": "http://api.census.gov/data/2010/surname/examples.json",
+  "c_geographyLink": "http://api.census.gov/data/2010/surname/geography.json",
+  "c_groupsLink": "http://api.census.gov/data/2010/surname/groups.json",
+  "c_isAggregate": true,
+  "c_isAvailable": true,
+  "c_sorts_url": "http://api.census.gov/data/2010/surname/sorts.json",
+  "c_tagsLink": "http://api.census.gov/data/2010/surname/tags.json",
+  "c_variablesLink": "http://api.census.gov/data/2010/surname/variables.json",
+  "c_vintage": 2010,
+  "description": "The Census Bureau's Census surnames product is a data release based on names recorded in the decennial census.  The product contains rank and frequency data on surnames reported 100 or more times in the decennial census, along with Hispanic origin and race category percentages.  The latter are suppressed where necessary for confidentiality.  The data focus on summarized aggregates of counts and characteristics associated with surnames, and the data do not in any way identify any specific individuals.",
+  "distribution": [
+    {
+      "@type": "dcat:Distribution",
+      "accessURL": "http://api.census.gov/data/2010/surname",
+      "description": "API endpoint",
+      "format": "API",
+      "mediaType": "application/json",
+      "title": "API endpoint"
+    }
+  ],
+  "identifier": "http://api.census.gov/data/id/DecennialSurname2010",
+  "keyword": [
+    "census"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "modified": "2016-12-15",
+  "programCode": [
+    "006:004"
+  ],
+  "publisher": {
+    "@type": "org:Organization",
+    "name": "U.S. Census Bureau",
+    "subOrganizationOf": {
+      "@type": "org:Organization",
+      "name": "U.S. Department Of Commerce",
+      "subOrganizationOf": {
+        "@type": "org:Organization",
+        "name": "U.S. Government"
+      }
+    }
+  },
+  "references": [
+    "http://www.census.gov/developers/"
+  ],
+  "spatial": "United States",
+  "temporal": "2010/2010",
+  "title": "2010 Decennial Census of Population and Housing: Surnames"
+}

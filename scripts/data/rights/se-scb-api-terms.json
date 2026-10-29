@@ -1,0 +1,17 @@
+{
+  "url": "https://www.scb.se/en/services/open-data-api/",
+  "retrieved": "2026-10-28",
+  "publisher": "Statistics Sweden",
+  "scope": "Statistics Sweden open data via its Statistical Database API",
+  "excerpts": [
+    "We use the licence CC0 for this data",
+    "without any requirement to state the source."
+  ],
+  "originalHtmlSha256": "198e0d0602c3e750b886718ff59745168c7f614bf45fa3872d47c32ffe417959",
+  "review": "This extract records the CC0 and source-label guidance for SCB-owned Statistical Database open data. Publisher references identify original unmodified API inputs only. The independently selected lists and generated names belong to this library; they must not be presented as official SCB statistics, a partnership or an endorsed service.",
+  "processedDataInstruction": {
+    "appliesTo": "Statistics independently processed by a user",
+    "excerpt": "do not state the source."
+  },
+  "otherAgencyCaveat": "Statistics owned by another agency but hosted in the SCB database require separate source and rights review."
+}

@@ -1,0 +1,33 @@
+{
+  "source": "Deutsche Nationalbibliothek, GND authority-file sample associated with IE, female",
+  "url": "https://sparql.dnb.de/gnd",
+  "retrieved": "2026-10-29T00:38:04.776449+00:00",
+  "referencePeriod": "All periods represented in the retrieved authority file; no birth-year filter.",
+  "geographicScope": "Exactly one recorded GND geographic-area code, XA-IE: principal country of life/activity or historical/political association, not nationality, ethnicity, language or a representative resident population. The publisher labels XA-IE \"Ireland\". DNB country-code guidance generally assigns both XA-GB and XA-IE to English-language Irish authors; this sole-country selection excludes such dual-coded records.",
+  "snapshot": "snapshots/ie-gnd-2026-female.json",
+  "sha256": "727088f8146b6bf6e2480c53fb12ec070590687258abcbb754d1bac56d79f681",
+  "endpoint": "https://sparql.dnb.de/api/gnd",
+  "query": "PREFIX g: <https://d-nb.info/standards/elementset/gnd#>\nPREFIX gender: <https://d-nb.info/standards/vocab/gnd/gender#>\nPREFIX area: <https://d-nb.info/standards/vocab/gnd/geographic-area-code#>\nSELECT ?name (COUNT(DISTINCT ?person) AS ?count) WHERE {\n ?person a g:DifferentiatedPerson ; g:geographicAreaCode area:XA-IE ; g:gender gender:female ; g:preferredNameEntityForThePerson ?n .\n ?n g:forename ?name .\n FILTER NOT EXISTS { ?person g:geographicAreaCode ?otherCountry . FILTER(?otherCountry != area:XA-IE) }\n FILTER NOT EXISTS { ?person g:gender ?otherSex . FILTER(?otherSex != gender:female) }\n FILTER NOT EXISTS { ?person a ?excluded . VALUES ?excluded { g:Pseudonym g:CollectivePseudonym g:LiteraryOrLegendaryCharacter g:Gods g:Spirits g:RoyalOrMemberOfARoyalHouse } }\n FILTER NOT EXISTS { ?person g:realIdentity ?real . }\n FILTER NOT EXISTS { ?real g:pseudonym ?person . }\n FILTER NOT EXISTS { ?person g:realNameOfThePerson ?realName . }\n FILTER NOT EXISTS { ?person g:variantNameEntityForThePerson ?variant . ?variant a g:RealNameOfThePerson . }\n} GROUP BY ?name HAVING (COUNT(DISTINCT ?person) >= 5) ORDER BY DESC(?count) ?name",
+  "querySha256": "69352a0b895706f4df5d9806675372286677f8f96970a59ed889045ed052b355",
+  "sourceRowCount": 75,
+  "validStringCount": 75,
+  "selectedCount": 75,
+  "country": "ie",
+  "pool": "female",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseChecked": "2026-10-29",
+  "licenseScope": "Official DNB service and documentation explicitly dedicate GND authority metadata to CC0. The structured name components queried are part of that metadata. This does not apply the dedication to the books or other works described by library records. No GND cross-concordance datasets or external-thesaurus mappings are included; some such separately licensed data requires attribution.",
+  "attribution": "Deutsche Nationalbibliothek, GND. Independently selected authority-record sample; no affiliation or endorsement.",
+  "selection": "Select DifferentiatedPerson authority records with exactly the requested geographic-area code and one recorded gender. Both given-name and surname queries require explicit male/female. Keep surname pools separate by recorded sex; every form is observed, and no spelling is constructed. Use structured preferred-name components, joining a recorded surname prefix from the same entity. Exclude records explicitly typed as pseudonyms, collective pseudonyms, literary/legendary characters, gods, spirits or royal persons, and records with the identity/pseudonym/real-name links specified in the query. These filters do not establish that every remaining record is error-free. Count distinct authority-record identifiers per spelling, with at least five records. Counts are not population frequencies or guaranteed distinct real people. Keep at most 1000 valid strings per pool, ordered by descending count then UTF-8 spelling; generation is uniform.",
+  "display": "NFC normalization only; retain original case, compound given names, surname prefixes and apostrophes (including leading apostrophes). Keep 2–60 code points consisting of letters, spaces, hyphens or straight/curly apostrophes. Given-name components separated by spaces/hyphens must each contain at least two code points, excluding single-letter components. Reject post-normalization duplicates rather than combine counts.",
+  "rights": {
+    "basis": "CC0-1.0",
+    "attributionRequired": false,
+    "url": "https://sparql.dnb.de/gnd",
+    "snapshot": "rights/dnb-gnd-cc0.json",
+    "sha256": "c8e2e8820e4a68cd9315f89cc80d9f22529ec5d3d7f8e79ce39fdf669edb29da",
+    "format": "dnb-gnd-terms",
+    "identifier": "DNB-GND-authority-metadata"
+  }
+}

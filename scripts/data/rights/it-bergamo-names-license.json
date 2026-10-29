@@ -1,0 +1,429 @@
+{
+  "id" : "s29g-dr7j",
+  "name" : "Comune Bergamo - Graduatoria dei nomi",
+  "assetType" : "dataset",
+  "attribution" : "Comune Bergamo",
+  "averageRating" : 0,
+  "category" : "Statistica",
+  "createdAt" : 1437380033,
+  "description" : "Serie storica dal 1987 dei nomi più diffusi (primi 100) tra i residenti del Comune di Bergamo suddivisi per genere e cittadinanza.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 3074,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1529932095,
+  "licenseId" : "CC0_10",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 62615,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1456416076,
+  "publicationGroup" : 22344,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1779801834,
+  "rowsUpdatedBy" : "3sn6-kutt",
+  "tableId" : 34098,
+  "totalTimesRated" : 0,
+  "viewCount" : 4479,
+  "viewLastModified" : 1779801833,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1456416076,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 318457,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1456416076,
+    "targetAudience" : "public",
+    "workflowId" : 186,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "3sn6-kutt",
+      "displayName" : "Comune di Bergamo"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 744282,
+    "name" : "ANNO",
+    "dataTypeName" : "number",
+    "fieldName" : "anno",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 232213,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "2025",
+      "non_null" : "15600",
+      "average" : "2002",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2000",
+        "count" : "400"
+      }, {
+        "item" : "1989",
+        "count" : "400"
+      }, {
+        "item" : "2011",
+        "count" : "400"
+      }, {
+        "item" : "2012",
+        "count" : "400"
+      }, {
+        "item" : "2003",
+        "count" : "400"
+      }, {
+        "item" : "2016",
+        "count" : "400"
+      }, {
+        "item" : "2010",
+        "count" : "400"
+      }, {
+        "item" : "1993",
+        "count" : "400"
+      }, {
+        "item" : "2015",
+        "count" : "400"
+      }, {
+        "item" : "2007",
+        "count" : "400"
+      }, {
+        "item" : "1987",
+        "count" : "400"
+      }, {
+        "item" : "2001",
+        "count" : "400"
+      }, {
+        "item" : "2005",
+        "count" : "400"
+      }, {
+        "item" : "1991",
+        "count" : "400"
+      }, {
+        "item" : "2023",
+        "count" : "400"
+      }, {
+        "item" : "2013",
+        "count" : "400"
+      }, {
+        "item" : "2008",
+        "count" : "400"
+      }, {
+        "item" : "2017",
+        "count" : "400"
+      }, {
+        "item" : "2006",
+        "count" : "400"
+      }, {
+        "item" : "1996",
+        "count" : "400"
+      } ],
+      "smallest" : "1987",
+      "not_null" : "13302",
+      "count" : "15600",
+      "sum" : "24824800",
+      "cardinality" : "15600"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 744283,
+    "name" : "NOME",
+    "dataTypeName" : "text",
+    "fieldName" : "nome",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 232215,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "ZORAN",
+      "non_null" : "15600",
+      "null" : "0",
+      "top" : [ {
+        "item" : "MARIA",
+        "count" : "78"
+      }, {
+        "item" : "SILVIA",
+        "count" : "77"
+      }, {
+        "item" : "ELENA",
+        "count" : "77"
+      }, {
+        "item" : "MARIO",
+        "count" : "76"
+      }, {
+        "item" : "ANGELA",
+        "count" : "74"
+      }, {
+        "item" : "ANNA",
+        "count" : "74"
+      }, {
+        "item" : "MARINA",
+        "count" : "74"
+      }, {
+        "item" : "VALENTINA",
+        "count" : "73"
+      }, {
+        "item" : "NADIA",
+        "count" : "72"
+      }, {
+        "item" : "LAURA",
+        "count" : "72"
+      }, {
+        "item" : "DANIELA",
+        "count" : "69"
+      }, {
+        "item" : "SARA",
+        "count" : "69"
+      }, {
+        "item" : "ADRIANA",
+        "count" : "68"
+      }, {
+        "item" : "CLAUDIA",
+        "count" : "67"
+      }, {
+        "item" : "CRISTINA",
+        "count" : "64"
+      }, {
+        "item" : "ALESSANDRO",
+        "count" : "64"
+      }, {
+        "item" : "LIDIA",
+        "count" : "64"
+      }, {
+        "item" : "LILIANA",
+        "count" : "63"
+      }, {
+        "item" : "MARIA TERESA",
+        "count" : "62"
+      }, {
+        "item" : "MARIA LUISA",
+        "count" : "62"
+      } ],
+      "smallest" : "ABDALLAH",
+      "not_null" : "13302",
+      "count" : "15600",
+      "cardinality" : "15600"
+    },
+    "format" : { }
+  }, {
+    "id" : 744284,
+    "name" : "GENERE",
+    "dataTypeName" : "text",
+    "fieldName" : "genere",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 232216,
+    "width" : 136,
+    "cachedContents" : {
+      "largest" : "Maschi",
+      "non_null" : "15600",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Femmine",
+        "count" : "7800"
+      }, {
+        "item" : "Maschi",
+        "count" : "7800"
+      } ],
+      "smallest" : "Femmine",
+      "not_null" : "13302",
+      "count" : "15600",
+      "cardinality" : "15600"
+    },
+    "format" : { }
+  }, {
+    "id" : 744285,
+    "name" : "CITTADINANZA",
+    "dataTypeName" : "text",
+    "fieldName" : "cittadinanza",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 232217,
+    "width" : 170,
+    "cachedContents" : {
+      "largest" : "Stranieri",
+      "non_null" : "15600",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Stranieri",
+        "count" : "7800"
+      }, {
+        "item" : "Italiani",
+        "count" : "7800"
+      } ],
+      "smallest" : "Italiani",
+      "not_null" : "13302",
+      "count" : "15600",
+      "cardinality" : "15600"
+    },
+    "format" : { }
+  }, {
+    "id" : 744286,
+    "name" : "FREQUENZA",
+    "dataTypeName" : "number",
+    "fieldName" : "frequenza",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 232214,
+    "width" : 153,
+    "cachedContents" : {
+      "largest" : "4279",
+      "non_null" : "15600",
+      "average" : "192.4744354838710",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2",
+        "count" : "805"
+      }, {
+        "item" : "3",
+        "count" : "665"
+      }, {
+        "item" : "1",
+        "count" : "587"
+      }, {
+        "item" : "10",
+        "count" : "526"
+      }, {
+        "item" : "9",
+        "count" : "468"
+      }, {
+        "item" : "4",
+        "count" : "434"
+      }, {
+        "item" : "11",
+        "count" : "409"
+      }, {
+        "item" : "12",
+        "count" : "389"
+      }, {
+        "item" : "8",
+        "count" : "357"
+      }, {
+        "item" : "5",
+        "count" : "327"
+      }, {
+        "item" : "13",
+        "count" : "322"
+      }, {
+        "item" : "6",
+        "count" : "284"
+      }, {
+        "item" : "7",
+        "count" : "283"
+      }, {
+        "item" : "14",
+        "count" : "221"
+      }, {
+        "item" : "15",
+        "count" : "203"
+      }, {
+        "item" : "16",
+        "count" : "155"
+      }, {
+        "item" : "17",
+        "count" : "121"
+      }, {
+        "item" : "19",
+        "count" : "115"
+      }, {
+        "item" : "18",
+        "count" : "100"
+      }, {
+        "item" : "20",
+        "count" : "97"
+      } ],
+      "smallest" : "1",
+      "not_null" : "13302",
+      "count" : "15600",
+      "sum" : "2386683",
+      "cardinality" : "15600"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Creative Commons 1.0 Universal (Public Domain Dedication)",
+    "logoUrl" : "images/licenses/ccZero.png",
+    "termsLink" : "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+  },
+  "metadata" : {
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "anno",
+        "ascending" : false
+      } ]
+    },
+    "attachments" : [ {
+      "filename" : "MetaDati_ComuneBergamo_GraduatoriaNomi.pdf",
+      "assetId" : "07410e35-28fc-44a1-af9a-2eaba4952eaf",
+      "name" : "MetaDati_ComuneBergamo_GraduatoriaNomi.pdf"
+    } ],
+    "custom_fields" : {
+      "Frequenza di aggiornamento" : {
+        "Data ultima modifica" : "9/11/2021",
+        "Frequenza" : "Annuale"
+      },
+      "Microsite" : {
+        "Microsite" : "Comune di Bergamo"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "3sn6-kutt",
+    "displayName" : "Comune di Bergamo",
+    "profileImageUrlLarge" : "/api/users/3sn6-kutt/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/3sn6-kutt/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/3sn6-kutt/profile_images/TINY",
+    "screenName" : "Comune di Bergamo",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 744282,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "3sn6-kutt",
+    "displayName" : "Comune di Bergamo",
+    "profileImageUrlLarge" : "/api/users/3sn6-kutt/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/3sn6-kutt/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/3sn6-kutt/profile_images/TINY",
+    "screenName" : "Comune di Bergamo",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "tags" : [ "comune bergamo", "graduatoria nomi", "residenti" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

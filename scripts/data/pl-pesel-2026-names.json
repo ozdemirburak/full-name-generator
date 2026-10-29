@@ -1,0 +1,70 @@
+{
+  "source": "Ministerstwo Cyfryzacji (Polish Ministry of Digital Affairs), PESEL living-person first given names, 20 January 2026",
+  "url": "https://dane.gov.pl/pl/dataset/1667",
+  "retrieved": "2026-10-28",
+  "referenceDate": "2026-01-20",
+  "snapshot": "snapshots/pl-pesel-2026-names.tsv",
+  "sha256": "8f50f09394f111e4abf283c6055188b1b674916b043314a20ab46e9d2142d76a",
+  "originalFiles": [
+    {
+      "filename": "pl-given-male-2026.xlsx",
+      "url": "https://api.dane.gov.pl/media/resources/20260130/8_-_Wykaz_imion_m%C4%99skich_os%C3%B3b_%C5%BCyj%C4%85cych_wg_pola_imi%C4%99_pierwsze_wyst%C4%99puj%C4%85cych_w_rejestrze_PESEL_bez_zgon%C3%B3w.xlsx",
+      "resourceUrl": "https://api.dane.gov.pl/1.4/resources/1159669",
+      "resourceId": "1159669",
+      "sha256": "b9faca8309390781d61475f868dbfe2e5afe6a15a1f15cec529c911a855a58b4",
+      "kind": "names",
+      "gender": 0,
+      "recordedSex": "MĘŻCZYZNA",
+      "columns": [
+        "A",
+        "B",
+        "C"
+      ],
+      "header": [
+        "IMIĘ_PIERWSZE",
+        "PŁEĆ",
+        "LICZBA_WYSTĄPIEŃ"
+      ],
+      "rowCount": 46202
+    },
+    {
+      "filename": "pl-given-female-2026.xlsx",
+      "url": "https://api.dane.gov.pl/media/resources/20260130/8_-_Wykaz_imion_%C5%BCe%C5%84skich_os%C3%B3b_%C5%BCyj%C4%85cych_wg_pola_imi%C4%99_pierwsze_wyst%C4%99puj%C4%85cych_w_rejestrze_PESEL_bez_zgon%C3%B3w.xlsx",
+      "resourceUrl": "https://api.dane.gov.pl/1.4/resources/1159670",
+      "resourceId": "1159670",
+      "sha256": "00a7b8f202ea8af7684aff21da1ff47c7a2e935fd12df3b99583303b7d441eea",
+      "kind": "names",
+      "gender": 1,
+      "recordedSex": "KOBIETA",
+      "columns": [
+        "A",
+        "B",
+        "C"
+      ],
+      "header": [
+        "IMIĘ_PIERWSZE",
+        "PŁEĆ",
+        "LICZBA_WYSTĄPIEŃ"
+      ],
+      "rowCount": 28786
+    }
+  ],
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseChecked": "2026-10-28",
+  "licenseScope": "The official Ministry of Digital Affairs dataset catalogue declares CC0 1.0 and lists no additional reuse conditions. Aggregate living-person PESEL records, not person-level records.",
+  "attribution": "Ministerstwo Cyfryzacji, PESEL first given names, 20 January 2026. Selected and display-cased by this library.",
+  "selection": "First 1000 published strings per recorded sex by descending count, then UTF-8 spelling for ties. Preserve the separate male and female source lists. Generation is uniform.",
+  "display": "Uppercase source strings are converted to initial capitals for each letter sequence; diacritics, separators and compound forms are preserved. No names or gender forms are inferred.",
+  "countPerGender": 1000,
+  "rights": {
+    "basis": "CC0-1.0",
+    "attributionRequired": false,
+    "url": "https://api.dane.gov.pl/1.4/datasets/1667",
+    "snapshot": "rights/pl-dataset-1667.json",
+    "sha256": "d408f41f228679edfe7054a95eb7a3c1492a93a29606ee42c1da6e4375c43cb8",
+    "format": "dane-gov-pl",
+    "identifier": "1667"
+  },
+  "licenseEvidenceUrl": "https://api.dane.gov.pl/1.4/datasets/1667"
+}

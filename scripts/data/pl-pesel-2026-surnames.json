@@ -1,0 +1,66 @@
+{
+  "source": "Ministerstwo Cyfryzacji (Polish Ministry of Digital Affairs), PESEL living-person current surnames, 20 January 2026",
+  "url": "https://dane.gov.pl/pl/dataset/1681",
+  "retrieved": "2026-10-28",
+  "referenceDate": "2026-01-20",
+  "snapshot": "snapshots/pl-pesel-2026-surnames.tsv",
+  "sha256": "3ebe3a781d64719344b9d2abc2961bc1148f01abd00a1ea9975acc8cf780418c",
+  "originalFiles": [
+    {
+      "filename": "pl-surnames-male-2026.xlsx",
+      "url": "https://api.dane.gov.pl/media/resources/20260128/2_-_nazwiska_m%C4%99skie-osoby_%C5%BCyj%C4%85ce.xlsx",
+      "resourceUrl": "https://api.dane.gov.pl/1.4/resources/1148808",
+      "resourceId": "1148808",
+      "sha256": "d1aa180ad0d026eaaa019ab0572c718125d2c54c463f5db1e33008eb1d72440f",
+      "kind": "surnames",
+      "gender": 0,
+      "recordedSex": "MĘŻCZYZNA",
+      "columns": [
+        "A",
+        "B"
+      ],
+      "header": [
+        "Nazwisko aktualne",
+        "Liczba"
+      ],
+      "rowCount": 408182
+    },
+    {
+      "filename": "pl-surnames-female-2026.xlsx",
+      "url": "https://api.dane.gov.pl/media/resources/20260128/2_-_nazwiska_%C5%BCe%C5%84skie-osoby_%C5%BCyj%C4%85ce.xlsx",
+      "resourceUrl": "https://api.dane.gov.pl/1.4/resources/1148811",
+      "resourceId": "1148811",
+      "sha256": "f84240be50225fde65c9fc490f4426c4e39cb723cc606158413b41832f9d488f",
+      "kind": "surnames",
+      "gender": 1,
+      "recordedSex": "KOBIETA",
+      "columns": [
+        "A",
+        "B"
+      ],
+      "header": [
+        "Nazwisko aktualne",
+        "Liczba"
+      ],
+      "rowCount": 420082
+    }
+  ],
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseChecked": "2026-10-28",
+  "licenseScope": "The official Ministry of Digital Affairs dataset catalogue declares CC0 1.0 and lists no additional reuse conditions. Aggregate living-person PESEL records, not person-level records.",
+  "attribution": "Ministerstwo Cyfryzacji, PESEL current surnames, 20 January 2026. Selected and display-cased by this library.",
+  "selection": "First 1000 published strings per recorded sex by descending count, then UTF-8 spelling for ties. Preserve the separate male and female source lists. Generation is uniform.",
+  "display": "Uppercase source strings are converted to initial capitals for each letter sequence; diacritics, separators and compound forms are preserved. No names or gender forms are inferred.",
+  "countPerGender": 1000,
+  "rights": {
+    "basis": "CC0-1.0",
+    "attributionRequired": false,
+    "url": "https://api.dane.gov.pl/1.4/datasets/1681",
+    "snapshot": "rights/pl-dataset-1681.json",
+    "sha256": "4d8840807bfb01f61eb60dbb55ec99f084641d0b0d298aa7282129a3e458e42f",
+    "format": "dane-gov-pl",
+    "identifier": "1681"
+  },
+  "licenseEvidenceUrl": "https://api.dane.gov.pl/1.4/datasets/1681"
+}
