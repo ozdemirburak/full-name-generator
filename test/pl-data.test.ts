@@ -24,6 +24,11 @@ describe('Polish PESEL source selections', () => {
             }
         });
     }
+    it('never selects source placeholders such as BRAK DANYCH ("no data")', () => {
+        for (const list of [names.pl[0], names.pl[1], surnames.pl[0], surnames.pl[1]]) {
+            assert.ok(!list.some(name => name.toUpperCase() === 'BRAK DANYCH'));
+        }
+    });
     it('preserves source accents and distinct surname forms', () => {
         assert.equal(names.pl[0][0], 'Piotr');
         assert.equal(names.pl[1][0], 'Anna');

@@ -12,6 +12,8 @@ from zipfile import ZipFile
 
 DATA = Path(__file__).resolve().parent / 'data'
 NS = {'s': 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
+# Source placeholders that are not names (PESEL "BRAK DANYCH" = "no data"); never selected.
+PLACEHOLDERS = {'BRAK DANYCH'}
 
 
 def selected_rows(path, source):
@@ -53,7 +55,8 @@ def selected_rows(path, source):
     records = rows[1:]
     if len(records) != source['rowCount'] or len({row[0] for row in records}) != len(records):
         raise ValueError(f'Unexpected row count or duplicate source names: {path.name}')
-    selected = sorted(records, key=lambda row: (-row[1], row[0].encode('utf8')))[:1000]
+    named = [row for row in records if row[0] not in PLACEHOLDERS]
+    selected = sorted(named, key=lambda row: (-row[1], row[0].encode('utf8')))[:1000]
     if any(name != name.strip() for name, _ in selected):
         raise ValueError(f'Selected PESEL name has outer whitespace: {path.name}')
     return selected
@@ -71,14 +74,20 @@ def main():
             rows.extend(f"{source['gender']}\t{name}\t{count}" for name, count in
                         selected_rows(args.directory / source['filename'], source))
         output = ('gender\tname\tcount\n' + '\n'.join(rows) + '\n').encode('utf8')
-        if hashlib.sha256(output).hexdigest() != metadata['sha256']:
-            raise ValueError(f'Extracted PESEL snapshot checksum differs: {kind}')
+        digest = hashlib.sha256(output).hexdigest()
         target = DATA / metadata['snapshot']
         if args.check:
+            if digest != metadata['sha256']:
+                raise ValueError(f'Extracted PESEL snapshot checksum differs: {kind}')
             if target.read_bytes() != output:
                 raise ValueError(f'Snapshot differs from original PESEL workbooks: {kind}')
         else:
+            # Rewrite the snapshot and record its checksum in the manifest (review the diff before committing).
             target.write_bytes(output)
+            if digest != metadata['sha256']:
+                metadata['sha256'] = digest
+                manifest = DATA / f'pl-pesel-2026-{kind}.json'
+                manifest.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('Verified all four Polish PESEL selections against the original workbooks.')
 
 

@@ -1,6 +1,6 @@
 {
   "name": "full-name-generator",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Generate random first names, surnames and full names from official CC0 name datasets.",
   "keywords": [
     "random",

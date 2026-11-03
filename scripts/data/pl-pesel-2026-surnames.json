@@ -50,7 +50,7 @@
   "licenseChecked": "2026-10-28",
   "licenseScope": "The official Ministry of Digital Affairs dataset catalogue declares CC0 1.0 and lists no additional reuse conditions. Aggregate living-person PESEL records, not person-level records.",
   "attribution": "Ministerstwo Cyfryzacji, PESEL current surnames, 20 January 2026. Selected and display-cased by this library.",
-  "selection": "First 1000 published strings per recorded sex by descending count, then UTF-8 spelling for ties. Preserve the separate male and female source lists. Generation is uniform.",
+  "selection": "First 1000 published strings per recorded sex by descending count, then UTF-8 spelling for ties, excluding the source placeholder BRAK DANYCH (\"no data\"). Preserve the separate male and female source lists. Generation is uniform.",
   "display": "Uppercase source strings are converted to initial capitals for each letter sequence; diacritics, separators and compound forms are preserved. No names or gender forms are inferred.",
   "countPerGender": 1000,
   "rights": {
